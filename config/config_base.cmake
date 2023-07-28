@@ -137,6 +137,7 @@ set(ATTEST_KEY_BITS                     256         CACHE STRING    "The size of
 
 set(TFM_PARTITION_PLATFORM              OFF         CACHE BOOL      "Enable Platform partition")
 
+set(TFM_PARTITION_EXAMPLE               ON          CACHE BOOL      "Enable Example")
 ############################ Mbedcrypto configurations #########################
 
 set(MBEDCRYPTO_BUILD_TYPE               "${CMAKE_BUILD_TYPE}" CACHE STRING "Build type of Mbed Crypto library")

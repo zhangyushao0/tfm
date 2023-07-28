@@ -10,9 +10,8 @@
 
 struct platform_data_t;
 
-
-
-#define TFM_PERIPHERAL_STD_UART     (0)
-#define TFM_PERIPHERAL_TIMER0       (0)
-
+#define TFM_PERIPHERAL_STD_UART (0)
+#define TFM_PERIPHERAL_TIMER0 (0)
+#define TFM_TIMER0_IRQ (0)
+#define DEFAULT_IRQ_PRIORITY (0)
 #endif /* __TFM_PERIPHERALS_DEF_H__ */
