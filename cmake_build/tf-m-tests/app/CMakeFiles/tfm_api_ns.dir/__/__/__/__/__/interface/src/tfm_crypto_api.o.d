@@ -1,0 +1,20 @@
+tf-m-tests/app/CMakeFiles/tfm_api_ns.dir/__/__/__/__/__/interface/src/tfm_crypto_api.o: \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/interface/src/tfm_crypto_api.c \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/interface/include/tfm_crypto_defs.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/interface/include/psa/crypto.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/interface/include/psa/crypto_platform.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/interface/include/psa/crypto_types.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/lib/ext/mbedcrypto/mbedcrypto_config/crypto_config_default.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/interface/include/psa/crypto_values.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/interface/include/psa/crypto_sizes.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/interface/include/psa/crypto_struct.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/interface/include/psa/crypto_client_struct.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/interface/include/psa/crypto_extra.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/interface/include/psa/crypto_compat.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/interface/include/crypto_keys/tfm_builtin_key_ids.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/interface/include/psa/crypto.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/interface/include/psa/client.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/interface/include/psa/error.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/generated/interface/include/psa_manifest/sid.h

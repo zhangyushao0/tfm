@@ -1,0 +1,22 @@
+secure_fw/spm/CMakeFiles/tfm_spm.dir/__/__/platform/ext/target/stm/common/stm32l5xx/secure/tfm_hal_platform.o: \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/ext/target/stm/common/stm32l5xx/secure/tfm_hal_platform.c \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/include/cmsis_override.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/ext/target/stm/common/stm32l5xx/boards/cmsis.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/ext/target/stm/common/stm32l5xx/Device/Include/stm32l5xx.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/ext/target/stm/common/stm32l5xx/Device/Include/stm32l562xx.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/./ext/cmsis/core_cm33.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/./ext/cmsis/cmsis_version.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/./ext/cmsis/cmsis_compiler.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/./ext/cmsis/cmsis_gcc.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/./ext/cmsis/mpu_armv8.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/ext/target/stm/common/stm32l5xx/Device/Include/system_stm32l5xx.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/ext/target/stm/common/stm32l5xx/boards/target_cfg.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/ext/target/stm/TFM_FreeRTOS/../../../common/uart_stdout.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/ext/target/stm/common/stm32l5xx/boards/tfm_peripherals_def.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/./include/tfm_hal_platform.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/lib/fih/inc/fih.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/./include/tfm_hal_defs.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
+ /home/zhangyushao/tfm_2/trusted-firmware-m/platform/./include/tfm_plat_defs.h

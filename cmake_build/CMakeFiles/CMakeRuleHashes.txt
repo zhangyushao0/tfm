@@ -1,0 +1,12 @@
+# Hashes of file build rules.
+ffb6eb95ec20867fba48a6943d437f53 bin/tfm_ns.bin
+557d97da2568d9c51336b64e3db849c1 bin/tfm_ns.elf
+222d8f196e732eb7f50d5b1d1c92796f bin/tfm_ns.hex
+df8776bc6ee4e5f3ece5788377cc1fd4 bin/tfm_s.bin
+70288bd4b888236e6294683204e76e20 bin/tfm_s.elf
+b9523821416a80dd27aecfba3f129011 bin/tfm_s.hex
+8b37d05e9215381e5a4f9b20df0428a9 secure_fw/CMakeFiles/tfm_s_binaries
+260871d303ef50d664d8bd83c47222f8 secure_fw/partitions/crypto/mbedcrypto/CMakeFiles/crypto_service_apidoc
+59dbfbf58c58c824cf2a17bbf302e165 secure_fw/partitions/crypto/mbedcrypto/library/CMakeFiles/crypto_service_lib
+8b37d05e9215381e5a4f9b20df0428a9 secure_fw/s_veneers.o
+944b69288557786b09261dc6658ff5fd tf-m-tests/app/CMakeFiles/tfm_ns_binaries

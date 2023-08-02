@@ -1,0 +1,2569 @@
+Archive member included to satisfy reference by file (symbol)
+
+../../platform/ns/libplatform_ns.a(uart_stdout.o)
+                              CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o (stdio_output_string)
+../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+                              CMakeFiles/tfm_ns.dir/main_ns.o (HAL_Init)
+../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+                              CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o (SystemInit)
+../../platform/ns/libplatform_ns.a(low_level_com.o)
+                              ../../platform/ns/libplatform_ns.a(uart_stdout.o) (Driver_USART0)
+../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+                              CMakeFiles/tfm_ns.dir/main_ns.o (HAL_PWREx_ControlVoltageScaling)
+../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+                              CMakeFiles/tfm_ns.dir/main_ns.o (HAL_RCC_OscConfig)
+../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+                              CMakeFiles/tfm_ns.dir/main_ns.o (HAL_GPIO_Init)
+../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+                              ../../platform/ns/libplatform_ns.a(low_level_com.o) (HAL_UART_Transmit)
+../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+                              ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o) (HAL_UARTEx_WakeupCallback)
+../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+                              ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o) (HAL_NVIC_SetPriorityGrouping)
+../../platform/ns/libplatform_ns.a(tasks.o)
+                              CMakeFiles/tfm_ns.dir/main_ns.o (xTaskCreate)
+../../platform/ns/libplatform_ns.a(timers.o)
+                              ../../platform/ns/libplatform_ns.a(tasks.o) (xTimerCreateTimerTask)
+../../platform/ns/libplatform_ns.a(heap_4.o)
+                              ../../platform/ns/libplatform_ns.a(tasks.o) (pvPortMalloc)
+../../platform/ns/libplatform_ns.a(port.o)
+                              ../../platform/ns/libplatform_ns.a(tasks.o) (vPortYield)
+../../platform/ns/libplatform_ns.a(portasm.o)
+                              ../../platform/ns/libplatform_ns.a(port.o) (vRestoreContextOfFirstTask)
+../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+                              ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o) (HAL_DMA_Start_IT)
+../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+                              ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o) (HAL_PWR_PVDCallback)
+../../platform/ns/libplatform_ns.a(list.o)
+                              ../../platform/ns/libplatform_ns.a(tasks.o) (vListInitialise)
+../../platform/ns/libplatform_ns.a(queue.o)
+                              ../../platform/ns/libplatform_ns.a(timers.o) (xQueueGenericCreate)
+libtfm_api_ns.a(tfm_crypto_api.o)
+                              CMakeFiles/tfm_ns.dir/main_ns.o (psa_crypto_init)
+libtfm_api_ns.a(tfm_psa_ns_api.o)
+                              CMakeFiles/tfm_ns.dir/main_ns.o (psa_call)
+libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+                              libtfm_api_ns.a(tfm_psa_ns_api.o) (tfm_ns_interface_dispatch)
+../../secure_fw/libtfm_s_veneers.a(s_veneers.o)
+                              libtfm_api_ns.a(tfm_psa_ns_api.o) (tfm_psa_framework_version_veneer)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+                              ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o) (__aeabi_ldivmod)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+                              ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o) (__aeabi_uldivmod)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o) (__udivmoddi4)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o (atexit)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o (exit)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-fini.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o (__libc_fini_array)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o (__libc_init_array)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy.o)
+                              ../../platform/ns/libplatform_ns.a(queue.o) (memcpy)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o (memset)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-strlen-stub.o)
+                              CMakeFiles/tfm_ns.dir/main_ns.o (strlen)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-atexit.o) (__register_exitproc)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__call_atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__atexit.o) (__call_exitprocs)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o) (_exit)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crti.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtbegin.o
+ .rodata        0x0000000000000000       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtbegin.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+ .text          0x0000000000000000        0x0 CMakeFiles/tfm_ns.dir/main_ns.o
+ .data          0x0000000000000000        0x0 CMakeFiles/tfm_ns.dir/main_ns.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/tfm_ns.dir/main_ns.o
+ .text.tfm_ns_platform_uninit
+                0x0000000000000000        0xa CMakeFiles/tfm_ns.dir/main_ns.o
+ .rodata.test2.str1.1
+                0x0000000000000000       0x4c CMakeFiles/tfm_ns.dir/main_ns.o
+ .text.test2    0x0000000000000000       0x78 CMakeFiles/tfm_ns.dir/main_ns.o
+ .text.SystemClock_Config
+                0x0000000000000000       0x6e CMakeFiles/tfm_ns.dir/main_ns.o
+ .text          0x0000000000000000        0x0 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+ .data          0x0000000000000000        0x0 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+ .text.SVC_Handler
+                0x0000000000000000        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+ .text.PendSV_Handler
+                0x0000000000000000        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+ .text.SysTick_Handler
+                0x0000000000000000        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+ .text          0x0000000000000000        0x0 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .data          0x0000000000000000        0x0 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .text.TZ_InitContextSystem_S
+                0x0000000000000000        0x4 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .text.TZ_AllocModuleContext_S
+                0x0000000000000000        0x4 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .text.TZ_FreeModuleContext_S
+                0x0000000000000000        0x4 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .text.TZ_LoadContext_S
+                0x0000000000000000        0x4 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .text.TZ_StoreContext_S
+                0x0000000000000000        0x4 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .debug_info    0x0000000000000000      0x135 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .debug_abbrev  0x0000000000000000       0xbb CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .debug_loc     0x0000000000000000       0x25 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .debug_aranges
+                0x0000000000000000       0x28 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .debug_ranges  0x0000000000000000       0x18 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .debug_line    0x0000000000000000      0x181 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .debug_str     0x0000000000000000      0x2a3 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .comment       0x0000000000000000       0x34 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .debug_frame   0x0000000000000000       0x60 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .ARM.attributes
+                0x0000000000000000       0x34 CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+ .text          0x0000000000000000        0x0 CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .data          0x0000000000000000        0x0 CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+ .text._write   0x0000000000000000        0x8 ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+ .text.stdio_uninit
+                0x0000000000000000       0x18 ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_MspDeInit
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_DeInit
+                0x0000000000000000       0x30 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_IncTick
+                0x0000000000000000       0x18 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_GetTickPrio
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_SetTickFreq
+                0x0000000000000000       0x28 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_GetTickFreq
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_Delay
+                0x0000000000000000       0x24 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_SuspendTick
+                0x0000000000000000        0xe ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_ResumeTick
+                0x0000000000000000        0xe ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_GetHalVersion
+                0x0000000000000000        0x8 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_GetREVID
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_GetDEVID
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_GetUIDw0
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_GetUIDw1
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_GetUIDw2
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_DBGMCU_EnableDBGStopMode
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_DBGMCU_DisableDBGStopMode
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_DBGMCU_EnableDBGStandbyMode
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_DBGMCU_DisableDBGStandbyMode
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_SYSCFG_SRAM2Erase
+                0x0000000000000000       0x18 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_SYSCFG_VREFBUF_HighImpedanceConfig
+                0x0000000000000000       0x14 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_SYSCFG_VREFBUF_TrimmingConfig
+                0x0000000000000000       0x14 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_SYSCFG_VREFBUF_VoltageScalingConfig
+                0x0000000000000000       0x2c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_SYSCFG_EnableVREFBUF
+                0x0000000000000000       0x30 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_SYSCFG_DisableVREFBUF
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_SYSCFG_EnableIOAnalogBooster
+                0x0000000000000000       0x14 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_SYSCFG_DisableIOAnalogBooster
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_SYSCFG_EnableIOAnalogSwitchVdd
+                0x0000000000000000       0x14 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_SYSCFG_DisableIOAnalogSwitchVdd
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_SYSCFG_Lock
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text.HAL_SYSCFG_GetLock
+                0x0000000000000000       0x14 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_GetVoltageRange
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnableBatteryCharging
+                0x0000000000000000       0x1c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_DisableBatteryCharging
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnableVddUSB
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_DisableVddUSB
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnableVddIO2
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_DisableVddIO2
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnableGPIOPullUp
+                0x0000000000000000       0xbc ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_DisableGPIOPullUp
+                0x0000000000000000       0x84 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnableGPIOPullDown
+                0x0000000000000000       0xbc ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_DisableGPIOPullDown
+                0x0000000000000000       0x88 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnablePullUpPullDownConfig
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_DisablePullUpPullDownConfig
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_ConfigSRAM2ContentRetention
+                0x0000000000000000       0x14 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnableSRAM2ContentRetention
+                0x0000000000000000        0x8 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_DisableSRAM2ContentRetention
+                0x0000000000000000        0x6 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnablePVM1
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_DisablePVM1
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnablePVM2
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_DisablePVM2
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnablePVM3
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_DisablePVM3
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnablePVM4
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_DisablePVM4
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_ConfigPVM
+                0x0000000000000000      0x1c4 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnableLowPowerRunMode
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_DisableLowPowerRunMode
+                0x0000000000000000       0x48 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnterSTOP0Mode
+                0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnterSTOP1Mode
+                0x0000000000000000       0x38 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnterSTOP2Mode
+                0x0000000000000000       0x38 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnterSHUTDOWNMode
+                0x0000000000000000       0x24 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_PVM1Callback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_PVM2Callback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_PVM3Callback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_PVM4Callback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_PVD_PVM_IRQHandler
+                0x0000000000000000       0x64 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnableUCPDStandbyMode
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_DisableUCPDStandbyMode
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnableUCPDDeadBattery
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_DisableUCPDDeadBattery
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_EnableUltraLowPowerMode
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_DisableUltraLowPowerMode
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_SMPS_GetEffectiveMode
+                0x0000000000000000       0x20 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_ControlVoltageScaling
+                0x0000000000000000       0x6c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_SMPS_EnableFastStart
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_SMPS_DisableFastStart
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_SMPS_DisableBypassMode
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_SMPS_EnableBypassMode
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_SMPS_SetMode
+                0x0000000000000000       0x84 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_SMPS_EnableExternal
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_SMPS_DisableExternal
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text.HAL_PWREx_SMPS_GetMainRegulatorExtSMPSReadyStatus
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .debug_info    0x0000000000000000      0xf19 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .debug_abbrev  0x0000000000000000      0x2e2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .debug_loc     0x0000000000000000      0x877 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .debug_aranges
+                0x0000000000000000      0x1a0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .debug_ranges  0x0000000000000000      0x190 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .debug_line    0x0000000000000000      0xb74 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .debug_str     0x0000000000000000      0xb72 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .comment       0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .debug_frame   0x0000000000000000      0x36c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr_ex.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .text.RCC_SetFlashLatencyFromMSIRange
+                0x0000000000000000       0x74 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .text.HAL_RCC_DeInit
+                0x0000000000000000      0x1a0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .text.HAL_RCC_MCOConfig
+                0x0000000000000000       0x50 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .text.HAL_RCC_OscConfig
+                0x0000000000000000      0x644 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .text.HAL_RCC_ClockConfig
+                0x0000000000000000      0x1f0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .text.HAL_RCC_GetOscConfig
+                0x0000000000000000       0xe0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .text.HAL_RCC_GetClockConfig
+                0x0000000000000000       0x3c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .text.HAL_RCC_EnableCSS
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .text.HAL_RCC_CSSCallback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .text.HAL_RCC_NMI_IRQHandler
+                0x0000000000000000       0x1c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .text.HAL_RCC_ConfigAttributes
+                0x0000000000000000       0x28 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .text.HAL_RCC_GetConfigAttributes
+                0x0000000000000000       0x20 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .text.HAL_GPIO_DeInit
+                0x0000000000000000      0x124 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .text.HAL_GPIO_ReadPin
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .text.HAL_GPIO_LockPin
+                0x0000000000000000       0x2a ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .text.HAL_GPIO_EXTI_Rising_Callback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .text.HAL_GPIO_EXTI_Falling_Callback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .text.HAL_GPIO_EXTI_IRQHandler
+                0x0000000000000000       0x28 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_EndRxTransfer
+                0x0000000000000000       0x32 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_TxISR_8BIT
+                0x0000000000000000       0x3c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_TxISR_16BIT
+                0x0000000000000000       0x40 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_TxISR_8BIT_FIFOEN
+                0x0000000000000000       0x4e ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_TxISR_16BIT_FIFOEN
+                0x0000000000000000       0x52 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_MspDeInit
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_DeInit
+                0x0000000000000000       0x3c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_Transmit_IT
+                0x0000000000000000       0xac ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_Transmit_DMA
+                0x0000000000000000       0x94 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_DMAPause
+                0x0000000000000000       0x5c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_DMAResume
+                0x0000000000000000       0x54 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_DMAStop
+                0x0000000000000000       0x8a ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_Abort
+                0x0000000000000000       0xbc ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_AbortTransmit
+                0x0000000000000000       0x68 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_AbortReceive
+                0x0000000000000000       0x76 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_TxCpltCallback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_DMATransmitCplt
+                0x0000000000000000       0x2e ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_TxHalfCpltCallback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_DMATxHalfCplt
+                0x0000000000000000        0xa ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_RxHalfCpltCallback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_DMAError
+                0x0000000000000000       0x5a ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_DMAAbortOnError
+                0x0000000000000000       0x14 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_AbortCpltCallback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_Abort_IT
+                0x0000000000000000       0xe8 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_DMARxAbortCallback
+                0x0000000000000000       0x3e ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_DMATxAbortCallback
+                0x0000000000000000       0x48 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_AbortTransmitCpltCallback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_AbortTransmit_IT
+                0x0000000000000000       0x74 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_DMATxOnlyAbortCallback
+                0x0000000000000000       0x28 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_AbortReceiveCpltCallback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_AbortReceive_IT
+                0x0000000000000000       0x8c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_DMARxOnlyAbortCallback
+                0x0000000000000000       0x26 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_IRQHandler
+                0x0000000000000000      0x278 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_DMARxHalfCplt
+                0x0000000000000000       0x1c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_DMAReceiveCplt
+                0x0000000000000000       0x58 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_ReceiverTimeout_Config
+                0x0000000000000000       0x18 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_EnableReceiverTimeout
+                0x0000000000000000       0x40 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_DisableReceiverTimeout
+                0x0000000000000000       0x40 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_MultiProcessor_EnterMuteMode
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_HalfDuplex_EnableTransmitter
+                0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_HalfDuplex_EnableReceiver
+                0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_LIN_SendBreak
+                0x0000000000000000       0x2c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_GetState
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_GetError
+                0x0000000000000000        0x6 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_Receive
+                0x0000000000000000       0xf2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_HalfDuplex_Init
+                0x0000000000000000       0x68 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_LIN_Init
+                0x0000000000000000       0x84 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_MultiProcessor_Init
+                0x0000000000000000       0x82 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_MultiProcessor_EnableMuteMode
+                0x0000000000000000       0x2c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_MultiProcessor_DisableMuteMode
+                0x0000000000000000       0x2c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_Start_Receive_DMA
+                0x0000000000000000       0x7c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.HAL_UART_Receive_DMA
+                0x0000000000000000       0x4c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.UARTEx_SetNbDataToProcess
+                0x0000000000000000       0x44 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.HAL_RS485Ex_Init
+                0x0000000000000000       0x7e ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.HAL_UARTEx_WakeupCallback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.HAL_UARTEx_RxFifoFullCallback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.HAL_UARTEx_TxFifoEmptyCallback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.HAL_MultiProcessorEx_AddressLength_Set
+                0x0000000000000000       0x2c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.HAL_UARTEx_StopModeWakeUpSourceConfig
+                0x0000000000000000       0x8c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.HAL_UARTEx_EnableStopMode
+                0x0000000000000000       0x20 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.HAL_UARTEx_DisableStopMode
+                0x0000000000000000       0x20 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.HAL_UARTEx_EnableFifoMode
+                0x0000000000000000       0x46 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.HAL_UARTEx_DisableFifoMode
+                0x0000000000000000       0x36 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.HAL_UARTEx_SetTxFifoThreshold
+                0x0000000000000000       0x48 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.HAL_UARTEx_SetRxFifoThreshold
+                0x0000000000000000       0x48 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.HAL_UARTEx_ReceiveToIdle
+                0x0000000000000000      0x13c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.HAL_UARTEx_ReceiveToIdle_IT
+                0x0000000000000000       0x48 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text.HAL_UARTEx_ReceiveToIdle_DMA
+                0x0000000000000000       0x48 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .rodata.denominator.0
+                0x0000000000000000        0x8 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .rodata.numerator.1
+                0x0000000000000000        0x8 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .debug_info    0x0000000000000000      0xfde ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .debug_abbrev  0x0000000000000000      0x2c4 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .debug_loc     0x0000000000000000      0x965 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .debug_aranges
+                0x0000000000000000       0x88 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .debug_ranges  0x0000000000000000       0x78 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .debug_line    0x0000000000000000      0xaff ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .debug_str     0x0000000000000000      0xb51 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .comment       0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .debug_frame   0x0000000000000000      0x198 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart_ex.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_NVIC_EnableIRQ
+                0x0000000000000000       0x1c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_NVIC_DisableIRQ
+                0x0000000000000000       0x28 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_NVIC_SystemReset
+                0x0000000000000000       0x24 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_NVIC_GetPriorityGrouping
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_NVIC_GetPriority
+                0x0000000000000000       0x60 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_NVIC_SetPendingIRQ
+                0x0000000000000000       0x20 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_NVIC_GetPendingIRQ
+                0x0000000000000000       0x24 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_NVIC_ClearPendingIRQ
+                0x0000000000000000       0x20 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_NVIC_GetActive
+                0x0000000000000000       0x24 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_SYSTICK_CLKSourceConfig
+                0x0000000000000000       0x16 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_SYSTICK_Callback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_SYSTICK_IRQHandler
+                0x0000000000000000        0x8 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_MPU_Enable
+                0x0000000000000000       0x20 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_MPU_Disable
+                0x0000000000000000       0x18 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_MPU_ConfigRegion
+                0x0000000000000000       0x50 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text.HAL_MPU_ConfigMemoryAttributes
+                0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.vTaskDelete
+                0x0000000000000000       0xa4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.eTaskGetState
+                0x0000000000000000       0x78 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.uxTaskPriorityGet
+                0x0000000000000000       0x1c ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.uxTaskPriorityGetFromISR
+                0x0000000000000000       0x1c ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.vTaskPrioritySet
+                0x0000000000000000       0xb4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.vTaskResume
+                0x0000000000000000       0x90 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.xTaskResumeFromISR
+                0x0000000000000000       0xb0 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.vTaskEndScheduler
+                0x0000000000000000       0x18 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.xTaskGetTickCountFromISR
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.uxTaskGetNumberOfTasks
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.pcTaskGetName
+                0x0000000000000000       0x18 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.xTaskDelayUntil
+                0x0000000000000000       0x68 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.xTaskCatchUpTicks
+                0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.vTaskSuspend
+                0x0000000000000000       0x98 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.vTaskPlaceOnUnorderedEventList
+                0x0000000000000000       0x5c ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.vTaskRemoveFromUnorderedEventList
+                0x0000000000000000       0xa8 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.vTaskSetTimeOutState
+                0x0000000000000000       0x2c ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.uxTaskGetTaskNumber
+                0x0000000000000000        0x6 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.vTaskSetTaskNumber
+                0x0000000000000000        0x6 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.vTaskGetInfo
+                0x0000000000000000       0x7c ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.prvListTasksWithinSingleList
+                0x0000000000000000       0x60 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.uxTaskGetSystemState
+                0x0000000000000000       0xa0 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.uxTaskGetStackHighWaterMark
+                0x0000000000000000       0x20 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.xTaskGetCurrentTaskHandle
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.uxTaskResetEventItemValue
+                0x0000000000000000       0x18 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.ulTaskGenericNotifyTake
+                0x0000000000000000       0x5c ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.xTaskGenericNotifyWait
+                0x0000000000000000       0x88 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.xTaskGenericNotify
+                0x0000000000000000       0xe0 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.xTaskGenericNotifyFromISR
+                0x0000000000000000      0x130 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.vTaskGenericNotifyGiveFromISR
+                0x0000000000000000       0xe8 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.xTaskGenericNotifyStateClear
+                0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.ulTaskGenericNotifyValueClear
+                0x0000000000000000       0x2c ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(timers.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(timers.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.xTimerCreate
+                0x0000000000000000       0x4e ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.xTimerGenericCommand
+                0x0000000000000000       0x4c ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.xTimerGetTimerDaemonTaskHandle
+                0x0000000000000000       0x14 ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.xTimerGetPeriod
+                0x0000000000000000        0xe ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.vTimerSetReloadMode
+                0x0000000000000000       0x2e ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.xTimerGetReloadMode
+                0x0000000000000000       0x20 ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.uxTimerGetReloadMode
+                0x0000000000000000        0x4 ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.xTimerGetExpiryTime
+                0x0000000000000000        0xe ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.pcTimerGetName
+                0x0000000000000000        0xe ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.xTimerIsTimerActive
+                0x0000000000000000       0x20 ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.pvTimerGetTimerID
+                0x0000000000000000       0x1a ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.vTimerSetTimerID
+                0x0000000000000000       0x1c ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.xTimerPendFunctionCallFromISR
+                0x0000000000000000       0x28 ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.xTimerPendFunctionCall
+                0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.uxTimerGetTimerNumber
+                0x0000000000000000        0x4 ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.vTimerSetTimerNumber
+                0x0000000000000000        0x4 ../../platform/ns/libplatform_ns.a(timers.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .text.xPortGetFreeHeapSize
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .text.xPortGetMinimumEverFreeHeapSize
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .text.vPortInitialiseBlocks
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .text.pvPortCalloc
+                0x0000000000000000       0x2a ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .text.vPortGetHeapStats
+                0x0000000000000000       0x84 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(port.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(port.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(port.o)
+ .text.vPortEndScheduler
+                0x0000000000000000       0x18 ../../platform/ns/libplatform_ns.a(port.o)
+ .text.xPortIsInsideInterrupt
+                0x0000000000000000        0xc ../../platform/ns/libplatform_ns.a(port.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(portasm.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(portasm.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(portasm.o)
+ .text.xIsPrivileged
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(portasm.o)
+ .text.vRaisePrivilege
+                0x0000000000000000        0xe ../../platform/ns/libplatform_ns.a(portasm.o)
+ .text.vResetPrivilege
+                0x0000000000000000        0xe ../../platform/ns/libplatform_ns.a(portasm.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.DMA_SetConfig
+                0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.DMA_CalcDMAMUXChannelBaseAndMask
+                0x0000000000000000       0x48 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.HAL_DMA_Init
+                0x0000000000000000       0xe4 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.HAL_DMA_DeInit
+                0x0000000000000000       0xb0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.HAL_DMA_Start
+                0x0000000000000000       0x48 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.HAL_DMA_Start_IT
+                0x0000000000000000       0x82 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.HAL_DMA_Abort
+                0x0000000000000000       0x68 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.HAL_DMA_Abort_IT
+                0x0000000000000000       0x6e ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.HAL_DMA_PollForTransfer
+                0x0000000000000000      0x102 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.HAL_DMA_IRQHandler
+                0x0000000000000000       0xc2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.HAL_DMA_RegisterCallback
+                0x0000000000000000       0x4e ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.HAL_DMA_UnRegisterCallback
+                0x0000000000000000       0x62 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.HAL_DMA_GetState
+                0x0000000000000000        0x6 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.HAL_DMA_GetError
+                0x0000000000000000        0x4 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.HAL_DMA_ConfigChannelAttributes
+                0x0000000000000000       0x20 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text.HAL_DMA_GetConfigChannelAttributes
+                0x0000000000000000       0x1e ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .debug_info    0x0000000000000000      0xb65 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .debug_abbrev  0x0000000000000000      0x2bb ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .debug_loc     0x0000000000000000      0x8ce ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .debug_aranges
+                0x0000000000000000       0x98 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .debug_ranges  0x0000000000000000       0xa0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .debug_line    0x0000000000000000      0xd18 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .debug_str     0x0000000000000000      0x89d ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .comment       0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .debug_frame   0x0000000000000000      0x1a0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_dma.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_DeInit
+                0x0000000000000000       0x18 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_EnableBkUpAccess
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_DisableBkUpAccess
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_ConfigPVD
+                0x0000000000000000       0x88 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_EnablePVD
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_DisablePVD
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_EnableWakeUpPin
+                0x0000000000000000       0x20 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_DisableWakeUpPin
+                0x0000000000000000       0x14 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_EnterSLEEPMode
+                0x0000000000000000       0x40 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_EnterSTOPMode
+                0x0000000000000000       0x12 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_EnterSTANDBYMode
+                0x0000000000000000       0x24 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_EnableSleepOnExit
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_DisableSleepOnExit
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_EnableSEVOnPend
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_DisableSEVOnPend
+                0x0000000000000000       0x10 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_PVDCallback
+                0x0000000000000000        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_ConfigAttributes
+                0x0000000000000000       0x2c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text.HAL_PWR_GetConfigAttributes
+                0x0000000000000000       0x24 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .debug_info    0x0000000000000000      0xd7e ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .debug_abbrev  0x0000000000000000      0x1da ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .debug_loc     0x0000000000000000      0x1db ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .debug_aranges
+                0x0000000000000000       0xa8 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .debug_ranges  0x0000000000000000       0x98 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .debug_line    0x0000000000000000      0x4f4 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .debug_str     0x0000000000000000      0x8aa ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .comment       0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .debug_frame   0x0000000000000000      0x138 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_pwr.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(list.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(list.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(list.o)
+ .text.vListInsertEnd
+                0x0000000000000000       0x18 ../../platform/ns/libplatform_ns.a(list.o)
+ .text          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(queue.o)
+ .data          0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(queue.o)
+ .bss           0x0000000000000000        0x0 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.xQueueGetMutexHolder
+                0x0000000000000000       0x22 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.xQueueGetMutexHolderFromISR
+                0x0000000000000000       0x16 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.xQueueCreateCountingSemaphore
+                0x0000000000000000       0x1e ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.xQueueGiveMutexRecursive
+                0x0000000000000000       0x30 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.xQueueGenericSendFromISR
+                0x0000000000000000       0xa4 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.xQueueGiveFromISR
+                0x0000000000000000       0x88 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.xQueueTakeMutexRecursive
+                0x0000000000000000       0x36 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.xQueuePeek
+                0x0000000000000000       0xf8 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.xQueueReceiveFromISR
+                0x0000000000000000       0x86 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.xQueuePeekFromISR
+                0x0000000000000000       0x48 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.uxQueueMessagesWaiting
+                0x0000000000000000       0x1a ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.uxQueueSpacesAvailable
+                0x0000000000000000       0x1e ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.uxQueueMessagesWaitingFromISR
+                0x0000000000000000        0xe ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.uxQueueGetQueueNumber
+                0x0000000000000000        0x4 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.vQueueSetQueueNumber
+                0x0000000000000000        0x4 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.ucQueueGetQueueType
+                0x0000000000000000        0x6 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.xQueueIsQueueEmptyFromISR
+                0x0000000000000000       0x14 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.xQueueIsQueueFullFromISR
+                0x0000000000000000       0x16 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.pcQueueGetName
+                0x0000000000000000       0x2c ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.vQueueUnregisterQueue
+                0x0000000000000000       0x30 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.vQueueDelete
+                0x0000000000000000       0x1a ../../platform/ns/libplatform_ns.a(queue.o)
+ .text          0x0000000000000000        0x0 libtfm_api_ns.a(tfm_crypto_api.o)
+ .data          0x0000000000000000        0x0 libtfm_api_ns.a(tfm_crypto_api.o)
+ .bss           0x0000000000000000        0x0 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_crypto_init
+                0x0000000000000000        0x4 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_open_key
+                0x0000000000000000       0x44 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_close_key
+                0x0000000000000000       0x3c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_import_key
+                0x0000000000000000       0x58 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_destroy_key
+                0x0000000000000000       0x3c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_get_key_attributes
+                0x0000000000000000       0x40 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_reset_key_attributes
+                0x0000000000000000       0x40 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_export_key
+                0x0000000000000000       0x4c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_export_public_key
+                0x0000000000000000       0x4c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_purge_key
+                0x0000000000000000       0x3c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_copy_key
+                0x0000000000000000       0x50 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_cipher_generate_iv
+                0x0000000000000000       0x54 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_cipher_set_iv
+                0x0000000000000000       0x44 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_cipher_encrypt_setup
+                0x0000000000000000       0x50 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_cipher_decrypt_setup
+                0x0000000000000000       0x50 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_cipher_update
+                0x0000000000000000       0x5c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_cipher_abort
+                0x0000000000000000       0x44 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_cipher_finish
+                0x0000000000000000       0x5c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_hash_setup
+                0x0000000000000000       0x48 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_hash_update
+                0x0000000000000000       0x44 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_hash_finish
+                0x0000000000000000       0x5c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_hash_verify
+                0x0000000000000000       0x50 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_hash_abort
+                0x0000000000000000       0x44 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_hash_clone
+                0x0000000000000000       0x5c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_hash_compute
+                0x0000000000000000       0x58 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_hash_compare
+                0x0000000000000000       0x50 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_mac_sign_setup
+                0x0000000000000000       0x50 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_mac_verify_setup
+                0x0000000000000000       0x50 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_mac_update
+                0x0000000000000000       0x44 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_mac_sign_finish
+                0x0000000000000000       0x5c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_mac_verify_finish
+                0x0000000000000000       0x50 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_mac_abort
+                0x0000000000000000       0x44 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_aead_encrypt
+                0x0000000000000000       0x98 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_aead_decrypt
+                0x0000000000000000       0x9c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_aead_encrypt_setup
+                0x0000000000000000       0x50 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_aead_decrypt_setup
+                0x0000000000000000       0x50 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_aead_generate_nonce
+                0x0000000000000000       0x54 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_aead_set_nonce
+                0x0000000000000000       0x44 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_aead_set_lengths
+                0x0000000000000000       0x44 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_aead_update_ad
+                0x0000000000000000       0x58 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_aead_update
+                0x0000000000000000       0x6c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_aead_finish
+                0x0000000000000000       0x80 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_aead_verify
+                0x0000000000000000       0x7c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_aead_abort
+                0x0000000000000000       0x44 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_sign_message
+                0x0000000000000000       0x58 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_verify_message
+                0x0000000000000000       0x50 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_sign_hash
+                0x0000000000000000       0x5c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_verify_hash
+                0x0000000000000000       0x50 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_asymmetric_encrypt
+                0x0000000000000000       0x7c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_asymmetric_decrypt
+                0x0000000000000000       0x80 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_key_derivation_get_capacity
+                0x0000000000000000       0x48 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_key_derivation_output_bytes
+                0x0000000000000000       0x48 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_key_derivation_input_key
+                0x0000000000000000       0x48 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_key_derivation_abort
+                0x0000000000000000       0x44 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_key_derivation_key_agreement
+                0x0000000000000000       0x50 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_generate_random
+                0x0000000000000000       0x40 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_generate_key
+                0x0000000000000000       0x4c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_mac_compute
+                0x0000000000000000       0x58 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_mac_verify
+                0x0000000000000000       0x50 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_cipher_encrypt
+                0x0000000000000000       0x58 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_cipher_decrypt
+                0x0000000000000000       0x5c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_raw_key_agreement
+                0x0000000000000000       0x58 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_key_derivation_setup
+                0x0000000000000000       0x48 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_key_derivation_set_capacity
+                0x0000000000000000       0x40 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_key_derivation_input_bytes
+                0x0000000000000000       0x4c libtfm_api_ns.a(tfm_crypto_api.o)
+ .text.psa_key_derivation_output_key
+                0x0000000000000000       0x50 libtfm_api_ns.a(tfm_crypto_api.o)
+ .debug_info    0x0000000000000000     0x4603 libtfm_api_ns.a(tfm_crypto_api.o)
+ .debug_abbrev  0x0000000000000000      0x265 libtfm_api_ns.a(tfm_crypto_api.o)
+ .debug_loc     0x0000000000000000     0x319c libtfm_api_ns.a(tfm_crypto_api.o)
+ .debug_aranges
+                0x0000000000000000      0x228 libtfm_api_ns.a(tfm_crypto_api.o)
+ .debug_ranges  0x0000000000000000      0x248 libtfm_api_ns.a(tfm_crypto_api.o)
+ .debug_line    0x0000000000000000     0x1b2f libtfm_api_ns.a(tfm_crypto_api.o)
+ .debug_str     0x0000000000000000     0x1378 libtfm_api_ns.a(tfm_crypto_api.o)
+ .comment       0x0000000000000000       0x34 libtfm_api_ns.a(tfm_crypto_api.o)
+ .debug_frame   0x0000000000000000      0x968 libtfm_api_ns.a(tfm_crypto_api.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 libtfm_api_ns.a(tfm_crypto_api.o)
+ .text          0x0000000000000000        0x0 libtfm_api_ns.a(tfm_psa_ns_api.o)
+ .data          0x0000000000000000        0x0 libtfm_api_ns.a(tfm_psa_ns_api.o)
+ .bss           0x0000000000000000        0x0 libtfm_api_ns.a(tfm_psa_ns_api.o)
+ .text.psa_framework_version
+                0x0000000000000000       0x1c libtfm_api_ns.a(tfm_psa_ns_api.o)
+ .text.psa_version
+                0x0000000000000000       0x1c libtfm_api_ns.a(tfm_psa_ns_api.o)
+ .text          0x0000000000000000        0x0 libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+ .data          0x0000000000000000        0x0 libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+ .bss           0x0000000000000000        0x0 libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+ .text          0x0000000000000000       0xa0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_line    0x0000000000000000       0x7e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_info    0x0000000000000000       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_str     0x0000000000000000       0xa7 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_frame   0x0000000000000000       0x44 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-atexit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-fini.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-fini.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-strlen-stub.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-strlen-stub.o)
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__atexit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtend.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtend.o
+ .rodata        0x0000000000000000       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtend.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008055000 0x0000000000029000 xr
+RAM              0x0000000020000000 0x0000000000020000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crti.o
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtbegin.o
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+LOAD CMakeFiles/tfm_ns.dir/main_ns.o
+LOAD CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+LOAD CMakeFiles/tfm_ns.dir/__/ns_interface/ns_client_ext/tz_shim_layer.o
+LOAD CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+LOAD ../../platform/ns/libplatform_ns.a
+LOAD libtfm_test_app.a
+LOAD ../../lib/ext/tfm_test_repo-src/CMSIS/RTOS2/RTX/Library/GCC/libRTX_V8MMN.a
+LOAD libtfm_api_ns.a
+LOAD ../../platform/ns/libplatform_ns.a
+LOAD ../../secure_fw/libtfm_s_veneers.a
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a
+END GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtend.o
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtn.o
+                0x0000000000001000                __heap_size__ = 0x1000
+                0x0000000000001000                __stack_size__ = 0x1000
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libm.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a
+END GROUP
+
+.text           0x0000000008055000     0x37e4
+ *(.vectors)
+ .vectors       0x0000000008055000      0x1f4 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055000                __Vectors
+                0x00000000080551f4                __Vectors_End = .
+                0x00000000080551f4                __Vectors_Size = (__Vectors_End - __Vectors)
+                0x0000000020003540                __end__ = .
+ *(.text*)
+ .text          0x00000000080551f4       0x8c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtbegin.o
+ .text          0x0000000008055280       0x70 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+                0x0000000008055280                _stack_init
+                0x0000000008055288                _mainCRTStartup
+                0x0000000008055288                _start
+ .text.testThread
+                0x00000000080552f0       0x1c CMakeFiles/tfm_ns.dir/main_ns.o
+                0x00000000080552f0                testThread
+ .text.tfm_ns_platform_init
+                0x000000000805530c        0xa CMakeFiles/tfm_ns.dir/main_ns.o
+                0x000000000805530c                tfm_ns_platform_init
+ .text.tfm_ns_cp_init
+                0x0000000008055316        0x4 CMakeFiles/tfm_ns.dir/main_ns.o
+                0x0000000008055316                tfm_ns_cp_init
+ .text.test1    0x000000000805531a       0x14 CMakeFiles/tfm_ns.dir/main_ns.o
+                0x000000000805531a                test1
+ *fill*         0x000000000805532e        0x2 
+ .text.startup.main
+                0x0000000008055330       0x98 CMakeFiles/tfm_ns.dir/main_ns.o
+                0x0000000008055330                main
+ .text.NMI_Handler
+                0x00000000080553c8        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553c8                NMI_Handler
+ .text.HardFault_Handler
+                0x00000000080553ca        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553ca                HardFault_Handler
+ .text.MemManage_Handler
+                0x00000000080553cc        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553cc                MemManage_Handler
+ .text.BusFault_Handler
+                0x00000000080553ce        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553ce                BusFault_Handler
+ .text.UsageFault_Handler
+                0x00000000080553d0        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553d0                UsageFault_Handler
+ .text.SecureFault_Handler
+                0x00000000080553d2        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553d2                SecureFault_Handler
+ .text.DebugMon_Handler
+                0x00000000080553d4        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553d4                DebugMon_Handler
+ .text.WWDG_IRQHandler
+                0x00000000080553d6        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553d6                WWDG_IRQHandler
+ .text.PVD_PVM_IRQHandler
+                0x00000000080553d8        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553d8                PVD_PVM_IRQHandler
+ .text.RTC_IRQHandler
+                0x00000000080553da        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553da                RTC_IRQHandler
+ .text.RTC_IRQHandler_S
+                0x00000000080553dc        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553dc                RTC_IRQHandler_S
+ .text.TAMP_IRQHandler
+                0x00000000080553de        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553de                TAMP_IRQHandler
+ .text.TAMP_IRQHandler_S
+                0x00000000080553e0        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553e0                TAMP_IRQHandler_S
+ .text.FLASH_IRQHandler
+                0x00000000080553e2        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553e2                FLASH_IRQHandler
+ .text.FLASH_IRQHandler_S
+                0x00000000080553e4        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553e4                FLASH_IRQHandler_S
+ .text.SERR_IRQHandler
+                0x00000000080553e6        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553e6                SERR_IRQHandler
+ .text.RCC_IRQHandler
+                0x00000000080553e8        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553e8                RCC_IRQHandler
+ .text.RCC_IRQHandler_S
+                0x00000000080553ea        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553ea                RCC_IRQHandler_S
+ .text.EXTI0_IRQHandler
+                0x00000000080553ec        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553ec                EXTI0_IRQHandler
+ .text.EXTI1_IRQHandler
+                0x00000000080553ee        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553ee                EXTI1_IRQHandler
+ .text.EXTI2_IRQHandler
+                0x00000000080553f0        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553f0                EXTI2_IRQHandler
+ .text.EXTI3_IRQHandler
+                0x00000000080553f2        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553f2                EXTI3_IRQHandler
+ .text.EXTI4_IRQHandler
+                0x00000000080553f4        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553f4                EXTI4_IRQHandler
+ .text.EXTI5_IRQHandler
+                0x00000000080553f6        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553f6                EXTI5_IRQHandler
+ .text.EXTI6_IRQHandler
+                0x00000000080553f8        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553f8                EXTI6_IRQHandler
+ .text.EXTI7_IRQHandler
+                0x00000000080553fa        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553fa                EXTI7_IRQHandler
+ .text.EXTI8_IRQHandler
+                0x00000000080553fc        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553fc                EXTI8_IRQHandler
+ .text.EXTI9_IRQHandler
+                0x00000000080553fe        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080553fe                EXTI9_IRQHandler
+ .text.EXTI10_IRQHandler
+                0x0000000008055400        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055400                EXTI10_IRQHandler
+ .text.EXTI11_IRQHandler
+                0x0000000008055402        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055402                EXTI11_IRQHandler
+ .text.EXTI12_IRQHandler
+                0x0000000008055404        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055404                EXTI12_IRQHandler
+ .text.EXTI13_IRQHandler
+                0x0000000008055406        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055406                EXTI13_IRQHandler
+ .text.EXTI14_IRQHandler
+                0x0000000008055408        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055408                EXTI14_IRQHandler
+ .text.EXTI15_IRQHandler
+                0x000000000805540a        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805540a                EXTI15_IRQHandler
+ .text.DMAMUX1_IRQHandler
+                0x000000000805540c        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805540c                DMAMUX1_IRQHandler
+ .text.DMAMUX1_IRQHandler_S
+                0x000000000805540e        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805540e                DMAMUX1_IRQHandler_S
+ .text.DMA1_Channel1_IRQHandler
+                0x0000000008055410        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055410                DMA1_Channel1_IRQHandler
+ .text.DMA1_Channel2_IRQHandler
+                0x0000000008055412        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055412                DMA1_Channel2_IRQHandler
+ .text.DMA1_Channel3_IRQHandler
+                0x0000000008055414        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055414                DMA1_Channel3_IRQHandler
+ .text.DMA1_Channel4_IRQHandler
+                0x0000000008055416        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055416                DMA1_Channel4_IRQHandler
+ .text.DMA1_Channel5_IRQHandler
+                0x0000000008055418        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055418                DMA1_Channel5_IRQHandler
+ .text.DMA1_Channel6_IRQHandler
+                0x000000000805541a        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805541a                DMA1_Channel6_IRQHandler
+ .text.DMA1_Channel7_IRQHandler
+                0x000000000805541c        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805541c                DMA1_Channel7_IRQHandler
+ .text.DMA1_Channel8_IRQHandler
+                0x000000000805541e        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805541e                DMA1_Channel8_IRQHandler
+ .text.ADC1_2_IRQHandler
+                0x0000000008055420        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055420                ADC1_2_IRQHandler
+ .text.DAC_IRQHandler
+                0x0000000008055422        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055422                DAC_IRQHandler
+ .text.FDCAN1_IT0_IRQHandler
+                0x0000000008055424        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055424                FDCAN1_IT0_IRQHandler
+ .text.FDCAN1_IT1_IRQHandler
+                0x0000000008055426        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055426                FDCAN1_IT1_IRQHandler
+ .text.TIM1_BRK_IRQHandler
+                0x0000000008055428        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055428                TIM1_BRK_IRQHandler
+ .text.TIM1_UP_IRQHandler
+                0x000000000805542a        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805542a                TIM1_UP_IRQHandler
+ .text.TIM1_TRG_COM_IRQHandler
+                0x000000000805542c        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805542c                TIM1_TRG_COM_IRQHandler
+ .text.TIM1_CC_IRQHandler
+                0x000000000805542e        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805542e                TIM1_CC_IRQHandler
+ .text.TIM2_IRQHandler
+                0x0000000008055430        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055430                TIM2_IRQHandler
+ .text.TIM3_IRQHandler
+                0x0000000008055432        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055432                TIM3_IRQHandler
+ .text.TIM4_IRQHandler
+                0x0000000008055434        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055434                TIM4_IRQHandler
+ .text.TIM5_IRQHandler
+                0x0000000008055436        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055436                TIM5_IRQHandler
+ .text.TIM6_IRQHandler
+                0x0000000008055438        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055438                TIM6_IRQHandler
+ .text.TIM7_IRQHandler
+                0x000000000805543a        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805543a                TIM7_IRQHandler
+ .text.TIM8_BRK_IRQHandler
+                0x000000000805543c        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805543c                TIM8_BRK_IRQHandler
+ .text.TIM8_UP_IRQHandler
+                0x000000000805543e        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805543e                TIM8_UP_IRQHandler
+ .text.TIM8_TRG_COM_IRQHandler
+                0x0000000008055440        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055440                TIM8_TRG_COM_IRQHandler
+ .text.TIM8_CC_IRQHandler
+                0x0000000008055442        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055442                TIM8_CC_IRQHandler
+ .text.I2C1_EV_IRQHandler
+                0x0000000008055444        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055444                I2C1_EV_IRQHandler
+ .text.I2C1_ER_IRQHandler
+                0x0000000008055446        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055446                I2C1_ER_IRQHandler
+ .text.I2C2_EV_IRQHandler
+                0x0000000008055448        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055448                I2C2_EV_IRQHandler
+ .text.I2C2_ER_IRQHandler
+                0x000000000805544a        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805544a                I2C2_ER_IRQHandler
+ .text.SPI1_IRQHandler
+                0x000000000805544c        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805544c                SPI1_IRQHandler
+ .text.SPI2_IRQHandler
+                0x000000000805544e        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805544e                SPI2_IRQHandler
+ .text.USART1_IRQHandler
+                0x0000000008055450        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055450                USART1_IRQHandler
+ .text.USART2_IRQHandler
+                0x0000000008055452        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055452                USART2_IRQHandler
+ .text.USART3_IRQHandler
+                0x0000000008055454        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055454                USART3_IRQHandler
+ .text.UART4_IRQHandler
+                0x0000000008055456        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055456                UART4_IRQHandler
+ .text.UART5_IRQHandler
+                0x0000000008055458        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055458                UART5_IRQHandler
+ .text.LPUART1_IRQHandler
+                0x000000000805545a        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805545a                LPUART1_IRQHandler
+ .text.LPTIM1_IRQHandler
+                0x000000000805545c        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805545c                LPTIM1_IRQHandler
+ .text.LPTIM2_IRQHandler
+                0x000000000805545e        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805545e                LPTIM2_IRQHandler
+ .text.TIM15_IRQHandler
+                0x0000000008055460        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055460                TIM15_IRQHandler
+ .text.TIM16_IRQHandler
+                0x0000000008055462        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055462                TIM16_IRQHandler
+ .text.TIM17_IRQHandler
+                0x0000000008055464        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055464                TIM17_IRQHandler
+ .text.COMP_IRQHandler
+                0x0000000008055466        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055466                COMP_IRQHandler
+ .text.USB_FS_IRQHandler
+                0x0000000008055468        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055468                USB_FS_IRQHandler
+ .text.CRS_IRQHandler
+                0x000000000805546a        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805546a                CRS_IRQHandler
+ .text.FMC_IRQHandler
+                0x000000000805546c        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805546c                FMC_IRQHandler
+ .text.OCTOSPI1_IRQHandler
+                0x000000000805546e        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805546e                OCTOSPI1_IRQHandler
+ .text.SDMMC1_IRQHandler
+                0x0000000008055470        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055470                SDMMC1_IRQHandler
+ .text.DMA2_Channel1_IRQHandler
+                0x0000000008055472        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055472                DMA2_Channel1_IRQHandler
+ .text.DMA2_Channel2_IRQHandler
+                0x0000000008055474        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055474                DMA2_Channel2_IRQHandler
+ .text.DMA2_Channel3_IRQHandler
+                0x0000000008055476        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055476                DMA2_Channel3_IRQHandler
+ .text.DMA2_Channel4_IRQHandler
+                0x0000000008055478        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055478                DMA2_Channel4_IRQHandler
+ .text.DMA2_Channel5_IRQHandler
+                0x000000000805547a        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805547a                DMA2_Channel5_IRQHandler
+ .text.DMA2_Channel6_IRQHandler
+                0x000000000805547c        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805547c                DMA2_Channel6_IRQHandler
+ .text.DMA2_Channel7_IRQHandler
+                0x000000000805547e        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805547e                DMA2_Channel7_IRQHandler
+ .text.DMA2_Channel8_IRQHandler
+                0x0000000008055480        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055480                DMA2_Channel8_IRQHandler
+ .text.I2C3_EV_IRQHandler
+                0x0000000008055482        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055482                I2C3_EV_IRQHandler
+ .text.I2C3_ER_IRQHandler
+                0x0000000008055484        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055484                I2C3_ER_IRQHandler
+ .text.SAI1_IRQHandler
+                0x0000000008055486        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055486                SAI1_IRQHandler
+ .text.SAI2_IRQHandler
+                0x0000000008055488        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055488                SAI2_IRQHandler
+ .text.TSC_IRQHandler
+                0x000000000805548a        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805548a                TSC_IRQHandler
+ .text.AES_IRQHandler
+                0x000000000805548c        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805548c                AES_IRQHandler
+ .text.RNG_IRQHandler
+                0x000000000805548e        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805548e                RNG_IRQHandler
+ .text.FPU_IRQHandler
+                0x0000000008055490        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055490                FPU_IRQHandler
+ .text.HASH_IRQHandler
+                0x0000000008055492        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055492                HASH_IRQHandler
+ .text.PKA_IRQHandler
+                0x0000000008055494        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055494                PKA_IRQHandler
+ .text.LPTIM3_IRQHandler
+                0x0000000008055496        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055496                LPTIM3_IRQHandler
+ .text.SPI3_IRQHandler
+                0x0000000008055498        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x0000000008055498                SPI3_IRQHandler
+ .text.I2C4_ER_IRQHandler
+                0x000000000805549a        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805549a                I2C4_ER_IRQHandler
+ .text.I2C4_EV_IRQHandler
+                0x000000000805549c        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805549c                I2C4_EV_IRQHandler
+ .text.DFSDM1_FLT0_IRQHandler
+                0x000000000805549e        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x000000000805549e                DFSDM1_FLT0_IRQHandler
+ .text.DFSDM1_FLT1_IRQHandler
+                0x00000000080554a0        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080554a0                DFSDM1_FLT1_IRQHandler
+ .text.DFSDM1_FLT2_IRQHandler
+                0x00000000080554a2        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080554a2                DFSDM1_FLT2_IRQHandler
+ .text.DFSDM1_FLT3_IRQHandler
+                0x00000000080554a4        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080554a4                DFSDM1_FLT3_IRQHandler
+ .text.UCPD1_IRQHandler
+                0x00000000080554a6        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080554a6                UCPD1_IRQHandler
+ .text.ICACHE_IRQHandler
+                0x00000000080554a8        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080554a8                ICACHE_IRQHandler
+ .text.OTFDEC1_IRQHandler
+                0x00000000080554aa        0x2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080554aa                OTFDEC1_IRQHandler
+ .text.Reset_Handler
+                0x00000000080554ac       0x78 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                0x00000000080554ac                Reset_Handler
+ .text._tfm_flush_formatted_buffer
+                0x0000000008055524       0x1c CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .text._tfm_dec_num_output
+                0x0000000008055540       0x5e CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .text._tfm_hex_num_output
+                0x000000000805559e       0x3a CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .text._tfm_string_output
+                0x00000000080555d8       0x1a CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ *fill*         0x00000000080555f2        0x2 
+ .text.tfm_log_printf
+                0x00000000080555f4      0x110 CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+                0x00000000080555f4                tfm_log_printf
+ .text.stdio_output_string
+                0x0000000008055704       0x28 ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+                0x0000000008055704                stdio_output_string
+ .text.stdio_init
+                0x000000000805572c       0x2c ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+                0x000000000805572c                stdio_init
+ .text.HAL_MspInit
+                0x0000000008055758        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+                0x0000000008055758                HAL_MspInit
+ *fill*         0x000000000805575a        0x2 
+ .text.HAL_InitTick
+                0x000000000805575c       0x4c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+                0x000000000805575c                HAL_InitTick
+ .text.HAL_Init
+                0x00000000080557a8       0x22 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+                0x00000000080557a8                HAL_Init
+ *fill*         0x00000000080557ca        0x2 
+ .text.HAL_GetTick
+                0x00000000080557cc        0xc ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+                0x00000000080557cc                HAL_GetTick
+ .text.SystemInit
+                0x00000000080557d8        0x2 ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+                0x00000000080557d8                SystemInit
+ *fill*         0x00000000080557da        0x2 
+ .text.SystemCoreClockUpdate
+                0x00000000080557dc       0x9c ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+                0x00000000080557dc                SystemCoreClockUpdate
+ .text.USART_GetVersion
+                0x0000000008055878       0x20 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .text.USART_GetCapabilities
+                0x0000000008055898        0x4 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .text.USART0_Uninitialize
+                0x000000000805589c        0x4 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .text.USART0_PowerControl
+                0x00000000080558a0        0x4 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .text.USART0_Transfer
+                0x00000000080558a4        0x6 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .text.USART0_GetTxCount
+                0x00000000080558aa        0x4 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .text.USART0_Control
+                0x00000000080558ae        0x4 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .text.USART0_GetStatus
+                0x00000000080558b2        0xc ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .text.USART0_SetModemControl
+                0x00000000080558be        0x6 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .text.USART0_GetModemStatus
+                0x00000000080558c4        0xc ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .text.USART0_Receive
+                0x00000000080558d0       0x20 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .text.USART0_Send
+                0x00000000080558f0       0x24 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .text.USART0_Initialize
+                0x0000000008055914       0xb0 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .text.USART0_GetRxCount
+                0x00000000080559c4        0x4 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .text.HAL_RCC_GetSysClockFreq
+                0x00000000080559c8       0xa0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+                0x00000000080559c8                HAL_RCC_GetSysClockFreq
+ .text.HAL_RCC_GetHCLKFreq
+                0x0000000008055a68       0x20 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+                0x0000000008055a68                HAL_RCC_GetHCLKFreq
+ .text.HAL_RCC_GetPCLK1Freq
+                0x0000000008055a88       0x20 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+                0x0000000008055a88                HAL_RCC_GetPCLK1Freq
+ .text.HAL_RCC_GetPCLK2Freq
+                0x0000000008055aa8       0x20 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+                0x0000000008055aa8                HAL_RCC_GetPCLK2Freq
+ .text.HAL_GPIO_Init
+                0x0000000008055ac8      0x190 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+                0x0000000008055ac8                HAL_GPIO_Init
+ .text.HAL_GPIO_WritePin
+                0x0000000008055c58        0xa ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+                0x0000000008055c58                HAL_GPIO_WritePin
+ .text.HAL_GPIO_TogglePin
+                0x0000000008055c62       0x12 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+                0x0000000008055c62                HAL_GPIO_TogglePin
+ .text.HAL_UART_MspInit
+                0x0000000008055c74        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+                0x0000000008055c74                HAL_UART_MspInit
+ .text.HAL_UART_RxCpltCallback
+                0x0000000008055c76        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+                0x0000000008055c76                HAL_UART_RxCpltCallback
+ .text.HAL_UART_ErrorCallback
+                0x0000000008055c78        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+                0x0000000008055c78                HAL_UART_ErrorCallback
+ .text.HAL_UARTEx_RxEventCallback
+                0x0000000008055c7a        0x2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+                0x0000000008055c7a                HAL_UARTEx_RxEventCallback
+ .text.UART_RxISR_8BIT
+                0x0000000008055c7c       0x7a ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_RxISR_16BIT
+                0x0000000008055cf6       0x76 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_RxISR_8BIT_FIFOEN
+                0x0000000008055d6c      0x138 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_RxISR_16BIT_FIFOEN
+                0x0000000008055ea4      0x134 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .text.UART_SetConfig
+                0x0000000008055fd8      0x2d0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+                0x0000000008055fd8                UART_SetConfig
+ .text.UART_AdvFeatureConfig
+                0x00000000080562a8       0xaa ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+                0x00000000080562a8                UART_AdvFeatureConfig
+ .text.UART_WaitOnFlagUntilTimeout
+                0x0000000008056352       0x94 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+                0x0000000008056352                UART_WaitOnFlagUntilTimeout
+ .text.HAL_UART_Transmit
+                0x00000000080563e6       0xb8 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+                0x00000000080563e6                HAL_UART_Transmit
+ .text.UART_CheckIdleState
+                0x000000000805649e       0x68 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+                0x000000000805649e                UART_CheckIdleState
+ .text.HAL_UART_Init
+                0x0000000008056506       0x60 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+                0x0000000008056506                HAL_UART_Init
+ *fill*         0x0000000008056566        0x2 
+ .text.UART_Start_Receive_IT
+                0x0000000008056568       0xd4 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+                0x0000000008056568                UART_Start_Receive_IT
+ .text.HAL_UART_Receive_IT
+                0x000000000805663c       0x4c ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+                0x000000000805663c                HAL_UART_Receive_IT
+ .text.HAL_NVIC_SetPriorityGrouping
+                0x0000000008056688       0x24 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+                0x0000000008056688                HAL_NVIC_SetPriorityGrouping
+ .text.HAL_NVIC_SetPriority
+                0x00000000080566ac       0x64 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+                0x00000000080566ac                HAL_NVIC_SetPriority
+ .text.HAL_SYSTICK_Config
+                0x0000000008056710       0x28 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+                0x0000000008056710                HAL_SYSTICK_Config
+ .text.prvAddCurrentTaskToDelayedList
+                0x0000000008056738       0x8c ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.prvResetNextTaskUnblockTime
+                0x00000000080567c4       0x24 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.prvIdleTask
+                0x00000000080567e8       0x58 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .text.xTaskCreate
+                0x0000000008056840      0x1b0 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008056840                xTaskCreate
+ .text.vTaskStartScheduler
+                0x00000000080569f0       0x6c ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x00000000080569f0                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x0000000008056a5c       0x10 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008056a5c                vTaskSuspendAll
+ .text.xTaskGetTickCount
+                0x0000000008056a6c        0xc ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008056a6c                xTaskGetTickCount
+ .text.xTaskIncrementTick
+                0x0000000008056a78      0x168 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008056a78                xTaskIncrementTick
+ .text.xTaskResumeAll
+                0x0000000008056be0      0x120 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008056be0                xTaskResumeAll
+ .text.vTaskDelay
+                0x0000000008056d00       0x30 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008056d00                vTaskDelay
+ .text.vTaskSwitchContext
+                0x0000000008056d30       0x6c ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008056d30                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x0000000008056d9c       0x28 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008056d9c                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnEventListRestricted
+                0x0000000008056dc4       0x54 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008056dc4                vTaskPlaceOnEventListRestricted
+ .text.xTaskRemoveFromEventList
+                0x0000000008056e18       0xc4 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008056e18                xTaskRemoveFromEventList
+ .text.vTaskInternalSetTimeOutState
+                0x0000000008056edc       0x18 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008056edc                vTaskInternalSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x0000000008056ef4       0x60 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008056ef4                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x0000000008056f54        0xc ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008056f54                vTaskMissedYield
+ .text.xTaskGetSchedulerState
+                0x0000000008056f60       0x20 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008056f60                xTaskGetSchedulerState
+ .text.xTaskPriorityInherit
+                0x0000000008056f80       0x90 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008056f80                xTaskPriorityInherit
+ .text.xTaskPriorityDisinherit
+                0x0000000008057010       0x7c ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000008057010                xTaskPriorityDisinherit
+ .text.vTaskPriorityDisinheritAfterTimeout
+                0x000000000805708c       0x90 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x000000000805708c                vTaskPriorityDisinheritAfterTimeout
+ .text.pvTaskIncrementMutexHeldCount
+                0x000000000805711c       0x18 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x000000000805711c                pvTaskIncrementMutexHeldCount
+ .text.prvCheckForValidListAndQueue
+                0x0000000008057134       0x58 ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.prvInsertTimerInActiveList
+                0x000000000805718c       0x3c ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.prvReloadTimer
+                0x00000000080571c8       0x26 ../../platform/ns/libplatform_ns.a(timers.o)
+ *fill*         0x00000000080571ee        0x2 
+ .text.prvProcessExpiredTimer
+                0x00000000080571f0       0x40 ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.prvSampleTimeNow
+                0x0000000008057230       0x4c ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.prvTimerTask
+                0x000000000805727c      0x158 ../../platform/ns/libplatform_ns.a(timers.o)
+ .text.xTimerCreateTimerTask
+                0x00000000080573d4       0x44 ../../platform/ns/libplatform_ns.a(timers.o)
+                0x00000000080573d4                xTimerCreateTimerTask
+ .text.prvInsertBlockIntoFreeList
+                0x0000000008057418       0x48 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .text.pvPortMalloc
+                0x0000000008057460      0x108 ../../platform/ns/libplatform_ns.a(heap_4.o)
+                0x0000000008057460                pvPortMalloc
+ .text.vPortFree
+                0x0000000008057568       0x5c ../../platform/ns/libplatform_ns.a(heap_4.o)
+                0x0000000008057568                vPortFree
+ .text.prvTaskExitError
+                0x00000000080575c4       0x28 ../../platform/ns/libplatform_ns.a(port.o)
+ .text.vPortSetupTimerInterrupt
+                0x00000000080575ec       0x24 ../../platform/ns/libplatform_ns.a(port.o)
+                0x00000000080575ec                vPortSetupTimerInterrupt
+ .text.vPortYield
+                0x0000000008057610       0x16 ../../platform/ns/libplatform_ns.a(port.o)
+                0x0000000008057610                vPortYield
+ *fill*         0x0000000008057626        0x2 
+ .text.vPortEnterCritical
+                0x0000000008057628       0x1c ../../platform/ns/libplatform_ns.a(port.o)
+                0x0000000008057628                vPortEnterCritical
+ .text.vPortExitCritical
+                0x0000000008057644       0x28 ../../platform/ns/libplatform_ns.a(port.o)
+                0x0000000008057644                vPortExitCritical
+ .text.SysTick_Handler
+                0x000000000805766c       0x24 ../../platform/ns/libplatform_ns.a(port.o)
+                0x000000000805766c                SysTick_Handler
+ .text.vPortSVCHandler_C
+                0x0000000008057690       0x1a ../../platform/ns/libplatform_ns.a(port.o)
+                0x0000000008057690                vPortSVCHandler_C
+ *fill*         0x00000000080576aa        0x2 
+ .text.pxPortInitialiseStack
+                0x00000000080576ac       0x70 ../../platform/ns/libplatform_ns.a(port.o)
+                0x00000000080576ac                pxPortInitialiseStack
+ .text.xPortStartScheduler
+                0x000000000805771c       0x3c ../../platform/ns/libplatform_ns.a(port.o)
+                0x000000000805771c                xPortStartScheduler
+ *fill*         0x0000000008057758        0x8 
+ .text.vRestoreContextOfFirstTask
+                0x0000000008057760       0x34 ../../platform/ns/libplatform_ns.a(portasm.o)
+                0x0000000008057760                vRestoreContextOfFirstTask
+ *fill*         0x0000000008057794        0xc 
+ .text.vStartFirstTask
+                0x00000000080577a0       0x24 ../../platform/ns/libplatform_ns.a(portasm.o)
+                0x00000000080577a0                vStartFirstTask
+ .text.ulSetInterruptMask
+                0x00000000080577c4       0x16 ../../platform/ns/libplatform_ns.a(portasm.o)
+                0x00000000080577c4                ulSetInterruptMask
+ .text.vClearInterruptMask
+                0x00000000080577da        0xe ../../platform/ns/libplatform_ns.a(portasm.o)
+                0x00000000080577da                vClearInterruptMask
+ *fill*         0x00000000080577e8        0x8 
+ .text.PendSV_Handler
+                0x00000000080577f0       0x54 ../../platform/ns/libplatform_ns.a(portasm.o)
+                0x00000000080577f0                PendSV_Handler
+ *fill*         0x0000000008057844        0xc 
+ .text.SVC_Handler
+                0x0000000008057850       0x24 ../../platform/ns/libplatform_ns.a(portasm.o)
+                0x0000000008057850                SVC_Handler
+ .text.vListInitialise
+                0x0000000008057874       0x16 ../../platform/ns/libplatform_ns.a(list.o)
+                0x0000000008057874                vListInitialise
+ .text.vListInitialiseItem
+                0x000000000805788a        0x6 ../../platform/ns/libplatform_ns.a(list.o)
+                0x000000000805788a                vListInitialiseItem
+ .text.vListInsert
+                0x0000000008057890       0x2e ../../platform/ns/libplatform_ns.a(list.o)
+                0x0000000008057890                vListInsert
+ .text.uxListRemove
+                0x00000000080578be       0x20 ../../platform/ns/libplatform_ns.a(list.o)
+                0x00000000080578be                uxListRemove
+ .text.prvIsQueueEmpty
+                0x00000000080578de       0x16 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.prvCopyDataToQueue
+                0x00000000080578f4       0x6a ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.prvCopyDataFromQueue
+                0x000000000805795e       0x28 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.prvUnlockQueue
+                0x0000000008057986       0x70 ../../platform/ns/libplatform_ns.a(queue.o)
+ .text.xQueueGenericReset
+                0x00000000080579f6       0x72 ../../platform/ns/libplatform_ns.a(queue.o)
+                0x00000000080579f6                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x0000000008057a68       0x48 ../../platform/ns/libplatform_ns.a(queue.o)
+                0x0000000008057a68                xQueueGenericCreate
+ .text.xQueueGenericSend
+                0x0000000008057ab0      0x114 ../../platform/ns/libplatform_ns.a(queue.o)
+                0x0000000008057ab0                xQueueGenericSend
+ .text.xQueueCreateMutex
+                0x0000000008057bc4       0x24 ../../platform/ns/libplatform_ns.a(queue.o)
+                0x0000000008057bc4                xQueueCreateMutex
+ .text.xQueueReceive
+                0x0000000008057be8       0xf8 ../../platform/ns/libplatform_ns.a(queue.o)
+                0x0000000008057be8                xQueueReceive
+ .text.xQueueSemaphoreTake
+                0x0000000008057ce0      0x12c ../../platform/ns/libplatform_ns.a(queue.o)
+                0x0000000008057ce0                xQueueSemaphoreTake
+ .text.vQueueAddToRegistry
+                0x0000000008057e0c       0x44 ../../platform/ns/libplatform_ns.a(queue.o)
+                0x0000000008057e0c                vQueueAddToRegistry
+ .text.vQueueWaitForMessageRestricted
+                0x0000000008057e50       0x46 ../../platform/ns/libplatform_ns.a(queue.o)
+                0x0000000008057e50                vQueueWaitForMessageRestricted
+ *fill*         0x0000000008057e96        0x2 
+ .text.psa_call
+                0x0000000008057e98       0x38 libtfm_api_ns.a(tfm_psa_ns_api.o)
+                0x0000000008057e98                psa_call
+ .text.psa_connect
+                0x0000000008057ed0       0x1c libtfm_api_ns.a(tfm_psa_ns_api.o)
+                0x0000000008057ed0                psa_connect
+ .text.psa_close
+                0x0000000008057eec       0x1c libtfm_api_ns.a(tfm_psa_ns_api.o)
+                0x0000000008057eec                psa_close
+ .text.tfm_ns_interface_dispatch
+                0x0000000008057f08       0x48 libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+                0x0000000008057f08                tfm_ns_interface_dispatch
+ .text.tfm_ns_interface_init
+                0x0000000008057f50       0x1c libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+                0x0000000008057f50                tfm_ns_interface_init
+ .text          0x0000000008057f6c       0x30 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000008057f6c                __aeabi_uldivmod
+ .text          0x0000000008057f9c      0x2e8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+                0x0000000008057f9c                __udivmoddi4
+ .text          0x0000000008058284        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+                0x0000000008058284                __aeabi_ldiv0
+                0x0000000008058284                __aeabi_idiv0
+ .text          0x0000000008058288        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-atexit.o)
+                0x0000000008058288                atexit
+ .text          0x0000000008058294       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+                0x0000000008058294                exit
+ .text          0x00000000080582bc       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-fini.o)
+                0x00000000080582bc                __libc_fini_array
+ .text          0x00000000080582e8       0x48 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+                0x00000000080582e8                __libc_init_array
+ .text          0x0000000008058330       0xec /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy.o)
+                0x0000000008058330                memcpy
+ .text          0x000000000805841c       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+                0x000000000805841c                memset
+ .text          0x00000000080584c0       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-strlen-stub.o)
+                0x00000000080584c0                strlen
+ .text          0x000000000805851c       0xac /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__atexit.o)
+                0x000000000805851c                __register_exitproc
+ .text          0x00000000080585c8       0xbc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__call_atexit.o)
+                0x00000000080585c8                __call_exitprocs
+ .text          0x0000000008058684        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+                0x0000000008058684                _exit
+ *(.init)
+ .init          0x0000000008058688        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crti.o
+                0x0000000008058688                _init
+ .init          0x000000000805868c        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtn.o
+ *(.fini)
+ .fini          0x0000000008058694        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crti.o
+                0x0000000008058694                _fini
+ .fini          0x0000000008058698        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.main.str1.1
+                0x00000000080586a0       0x37 CMakeFiles/tfm_ns.dir/main_ns.o
+ .rodata.tfm_log_printf.str1.1
+                0x00000000080586d7       0x15 CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .rodata.hex_digits_lo
+                0x00000000080586ec       0x10 CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+                0x00000000080586ec                hex_digits_lo
+ .rodata.hex_digits_up
+                0x00000000080586fc       0x10 CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+                0x00000000080586fc                hex_digits_up
+ .rodata.AHBPrescTable
+                0x000000000805870c       0x10 ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+                0x000000000805870c                AHBPrescTable
+ .rodata.APBPrescTable
+                0x000000000805871c        0x8 ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+                0x000000000805871c                APBPrescTable
+ .rodata.MSIRangeTable
+                0x0000000008058724       0x40 ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+                0x0000000008058724                MSIRangeTable
+ .rodata.DriverVersion
+                0x0000000008058764        0x4 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .rodata.Driver_USART0
+                0x0000000008058768       0x38 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+                0x0000000008058768                Driver_USART0
+ .rodata.CSWTCH.58
+                0x00000000080587a0        0x3 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .rodata.CSWTCH.59
+                0x00000000080587a3        0xd ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .rodata.UARTPrescTable
+                0x00000000080587b0       0x18 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+                0x00000000080587b0                UARTPrescTable
+ .rodata.vTaskStartScheduler.str1.1
+                0x00000000080587c8        0x5 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .rodata.prvCheckForValidListAndQueue.str1.1
+                0x00000000080587cd        0x5 ../../platform/ns/libplatform_ns.a(timers.o)
+ .rodata.xTimerCreateTimerTask.str1.1
+                0x00000000080587d2        0x8 ../../platform/ns/libplatform_ns.a(timers.o)
+ *fill*         0x00000000080587da        0x2 
+ .rodata        0x00000000080587dc        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+                0x00000000080587dc                _global_impure_ptr
+ *(.eh_frame*)
+ .eh_frame      0x00000000080587e0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtbegin.o
+ .eh_frame      0x00000000080587e0        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtend.o
+
+.glue_7         0x00000000080587e4        0x0
+ .glue_7        0x00000000080587e4        0x0 linker stubs
+
+.glue_7t        0x00000000080587e4        0x0
+ .glue_7t       0x00000000080587e4        0x0 linker stubs
+
+.vfp11_veneer   0x00000000080587e4        0x0
+ .vfp11_veneer  0x00000000080587e4        0x0 linker stubs
+
+.v4_bx          0x00000000080587e4        0x0
+ .v4_bx         0x00000000080587e4        0x0 linker stubs
+
+.iplt           0x00000000080587e4        0x0
+ .iplt          0x00000000080587e4        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtbegin.o
+
+SFN             0x00000000080587e4       0x32
+ SFN            0x00000000080587e4       0x32 CMakeFiles/tfm_ns.dir/main_ns.o
+                0x00000000080587e4                tfm_example_partition_call
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000008058816                __exidx_start = .
+
+.ARM.exidx      0x0000000008058818        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0000000008058818        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+                                         0x10 (size before relaxing)
+ .ARM.exidx     0x0000000008058820        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+                                          0x8 (size before relaxing)
+                0x0000000008058820                __exidx_end = .
+
+.rel.dyn        0x0000000008058820        0x0
+ .rel.iplt      0x0000000008058820        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtbegin.o
+
+.copy.table     0x0000000008058820       0x18
+                0x0000000008058820                . = ALIGN (0x4)
+                0x0000000008058820                __copy_table_start__ = .
+                0x0000000008058820        0x4 LONG 0x8058848 __etext
+                0x0000000008058824        0x4 LONG 0x20000100 __data_start__
+                0x0000000008058828        0x4 LONG 0x20 ((__data_end__ - __data_start__) / 0x4)
+                0x000000000805882c        0x4 LONG 0x0 DEFINED (__etext2)?__etext2:0x0
+                0x0000000008058830        0x4 LONG 0x0 DEFINED (__data2_start__)?__data2_start__:0x0
+                0x0000000008058834        0x4 LONG 0x0 DEFINED (__data2_start__)?((__data2_end__ - __data2_start__) / 0x4):0x0
+                0x0000000008058838                __copy_table_end__ = .
+
+.zero.table     0x0000000008058838       0x10
+                0x0000000008058838                . = ALIGN (0x4)
+                0x0000000008058838                __zero_table_start__ = .
+                0x0000000008058838        0x4 LONG 0x20000180 __bss_start__
+                0x000000000805883c        0x4 LONG 0x8ef ((__bss_end__ - __bss_start__) / 0x4)
+                0x0000000008058840        0x4 LONG 0x0 DEFINED (__bss2_start__)?__bss2_start__:0x0
+                0x0000000008058844        0x4 LONG 0x0 DEFINED (__bss2_start__)?((__bss2_end__ - __bss2_start__) / 0x4):0x0
+                0x0000000008058848                __zero_table_end__ = .
+                0x0000000008058848                __etext = ALIGN (0x4)
+
+.testprotection
+ *(.bss.NoInit)
+
+.data           0x0000000020000100       0x80 load address 0x0000000008058848
+                0x0000000020000100                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.uwTickFreq
+                0x0000000020000100        0x1 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+                0x0000000020000100                uwTickFreq
+ *fill*         0x0000000020000101        0x3 
+ .data.uwTickPrio
+                0x0000000020000104        0x4 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+                0x0000000020000104                uwTickPrio
+ .data.SystemCoreClock
+                0x0000000020000108        0x4 ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+                0x0000000020000108                SystemCoreClock
+ .data.uxTopUsedPriority
+                0x000000002000010c        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x000000002000010c                uxTopUsedPriority
+ .data.ulCriticalNesting
+                0x0000000020000110        0x4 ../../platform/ns/libplatform_ns.a(port.o)
+ .data          0x0000000020000114       0x64 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+                0x0000000020000114                _impure_ptr
+                0x0000000020000178                . = ALIGN (0x4)
+                0x0000000020000178                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x0000000020000178                PROVIDE (__preinit_array_end = .)
+                0x0000000020000178                . = ALIGN (0x4)
+                0x0000000020000178                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x0000000020000178        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtbegin.o
+                0x000000002000017c                PROVIDE (__init_array_end = .)
+                0x000000002000017c                . = ALIGN (0x4)
+                0x000000002000017c                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x000000002000017c        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtbegin.o
+                0x0000000020000180                PROVIDE (__fini_array_end = .)
+ *(.jcr*)
+                0x0000000020000180                . = ALIGN (0x4)
+                0x0000000020000180                __data_end__ = .
+
+.tm_clone_table
+                0x0000000020000180        0x0 load address 0x00000000080588c8
+ .tm_clone_table
+                0x0000000020000180        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtbegin.o
+ .tm_clone_table
+                0x0000000020000180        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtend.o
+
+.igot.plt       0x0000000020000180        0x0 load address 0x00000000080588c8
+ .igot.plt      0x0000000020000180        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtbegin.o
+
+.bss            0x0000000020000180     0x23bc load address 0x00000000080588c8
+                0x0000000020000180                . = ALIGN (0x4)
+                0x0000000020000180                __bss_start__ = .
+ *(.bss*)
+ .bss           0x0000000020000180       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtbegin.o
+ .bss.uwTick    0x000000002000019c        0x4 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+                0x000000002000019c                uwTick
+ .bss.uart_device
+                0x00000000200001a0       0x90 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .bss.pxCurrentTCB
+                0x0000000020000230        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+                0x0000000020000230                pxCurrentTCB
+ .bss.pxDelayedTaskList
+                0x0000000020000234        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.pxOverflowDelayedTaskList
+                0x0000000020000238        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.pxReadyTasksLists
+                0x000000002000023c      0x140 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.uxCurrentNumberOfTasks
+                0x000000002000037c        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x0000000020000380        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.uxSchedulerSuspended
+                0x0000000020000384        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.uxTaskNumber
+                0x0000000020000388        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.uxTopReadyPriority
+                0x000000002000038c        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.xDelayedTaskList1
+                0x0000000020000390       0x14 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.xDelayedTaskList2
+                0x00000000200003a4       0x14 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.xIdleTaskHandle
+                0x00000000200003b8        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.xNextTaskUnblockTime
+                0x00000000200003bc        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.xNumOfOverflows
+                0x00000000200003c0        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.xPendedTicks
+                0x00000000200003c4        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.xPendingReadyList
+                0x00000000200003c8       0x14 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.xSchedulerRunning
+                0x00000000200003dc        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.xSuspendedTaskList
+                0x00000000200003e0       0x14 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.xTasksWaitingTermination
+                0x00000000200003f4       0x14 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.xTickCount
+                0x0000000020000408        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.xYieldPending
+                0x000000002000040c        0x4 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .bss.pxCurrentTimerList
+                0x0000000020000410        0x4 ../../platform/ns/libplatform_ns.a(timers.o)
+ .bss.pxOverflowTimerList
+                0x0000000020000414        0x4 ../../platform/ns/libplatform_ns.a(timers.o)
+ .bss.xActiveTimerList1
+                0x0000000020000418       0x14 ../../platform/ns/libplatform_ns.a(timers.o)
+ .bss.xActiveTimerList2
+                0x000000002000042c       0x14 ../../platform/ns/libplatform_ns.a(timers.o)
+ .bss.xLastTime.0
+                0x0000000020000440        0x4 ../../platform/ns/libplatform_ns.a(timers.o)
+ .bss.xTimerQueue
+                0x0000000020000444        0x4 ../../platform/ns/libplatform_ns.a(timers.o)
+ .bss.xTimerTaskHandle
+                0x0000000020000448        0x4 ../../platform/ns/libplatform_ns.a(timers.o)
+ .bss.pxEnd     0x000000002000044c        0x4 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .bss.ucHeap    0x0000000020000450     0x2000 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .bss.xFreeBytesRemaining
+                0x0000000020002450        0x4 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .bss.xMinimumEverFreeBytesRemaining
+                0x0000000020002454        0x4 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .bss.xNumberOfSuccessfulAllocations
+                0x0000000020002458        0x4 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .bss.xNumberOfSuccessfulFrees
+                0x000000002000245c        0x4 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .bss.xStart    0x0000000020002460        0x8 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .bss.xQueueRegistry
+                0x0000000020002468       0x40 ../../platform/ns/libplatform_ns.a(queue.o)
+                0x0000000020002468                xQueueRegistry
+ .bss.ns_lock_handle
+                0x00000000200024a8        0x4 libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+ .bss           0x00000000200024ac       0x8c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__atexit.o)
+ .bss           0x0000000020002538        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__call_atexit.o)
+                0x0000000020002538                _global_atexit
+ *(COMMON)
+                0x000000002000253c                . = ALIGN (0x4)
+                0x000000002000253c                __bss_end__ = .
+                0x00000000000023bc                bss_size = (__bss_end__ - __bss_start__)
+
+.stack          0x0000000020002540     0x1000 load address 0x000000000805aca0
+                0x0000000020003540                . = (. + __stack_size__)
+ *fill*         0x0000000020002540     0x1000 
+                0x0000000020002540                __StackLimit = ADDR (.stack)
+                0x0000000020003540                __StackTop = (ADDR (.stack) + SIZEOF (.stack))
+
+.heap           0x0000000020003540     0x1000 load address 0x000000000805bca0
+                0x0000000020003540                __end__ = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000020003540                __HeapBase = .
+                0x0000000020004540                . = (. + __heap_size__)
+ *fill*         0x0000000020003540     0x1000 
+                0x0000000020004540                __HeapLimit = .
+                0x0000000020004540                __heap_limit = .
+                0x0000000020003540                PROVIDE (__stack = __StackTop)
+OUTPUT(../../bin/tfm_ns.axf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x0000000000000000       0x30
+ .ARM.attributes
+                0x0000000000000000       0x22 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crti.o
+ .ARM.attributes
+                0x0000000000000022       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtbegin.o
+ .ARM.attributes
+                0x0000000000000054       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+ .ARM.attributes
+                0x0000000000000074       0x34 CMakeFiles/tfm_ns.dir/main_ns.o
+ .ARM.attributes
+                0x00000000000000a8       0x34 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+ .ARM.attributes
+                0x00000000000000dc       0x34 CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .ARM.attributes
+                0x0000000000000110       0x34 ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+ .ARM.attributes
+                0x0000000000000144       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .ARM.attributes
+                0x0000000000000178       0x34 ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+ .ARM.attributes
+                0x00000000000001ac       0x34 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .ARM.attributes
+                0x00000000000001e0       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .ARM.attributes
+                0x0000000000000214       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .ARM.attributes
+                0x0000000000000248       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .ARM.attributes
+                0x000000000000027c       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .ARM.attributes
+                0x00000000000002b0       0x34 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .ARM.attributes
+                0x00000000000002e4       0x34 ../../platform/ns/libplatform_ns.a(timers.o)
+ .ARM.attributes
+                0x0000000000000318       0x34 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .ARM.attributes
+                0x000000000000034c       0x34 ../../platform/ns/libplatform_ns.a(port.o)
+ .ARM.attributes
+                0x0000000000000380       0x34 ../../platform/ns/libplatform_ns.a(portasm.o)
+ .ARM.attributes
+                0x00000000000003b4       0x34 ../../platform/ns/libplatform_ns.a(list.o)
+ .ARM.attributes
+                0x00000000000003e8       0x34 ../../platform/ns/libplatform_ns.a(queue.o)
+ .ARM.attributes
+                0x000000000000041c       0x34 libtfm_api_ns.a(tfm_psa_ns_api.o)
+ .ARM.attributes
+                0x0000000000000450       0x34 libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+ .ARM.attributes
+                0x0000000000000484       0x22 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000000000004a6       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000000000004d8       0x22 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000000004fa       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x000000000000052c       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x000000000000055e       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-fini.o)
+ .ARM.attributes
+                0x0000000000000590       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000000005c2       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000000000005f4       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x0000000000000614       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000646       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x0000000000000678       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000000000006aa       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000000000006dc       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtend.o
+ .ARM.attributes
+                0x000000000000070e       0x22 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtn.o
+ .ARM.attributes
+                0x0000000000000730       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtbegin.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 CMakeFiles/tfm_ns.dir/main_ns.o
+ .comment       0x0000000000000033       0x34 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+ .comment       0x0000000000000033       0x34 CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .comment       0x0000000000000033       0x34 ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+ .comment       0x0000000000000033       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .comment       0x0000000000000033       0x34 ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+ .comment       0x0000000000000033       0x34 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .comment       0x0000000000000033       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .comment       0x0000000000000033       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .comment       0x0000000000000033       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .comment       0x0000000000000033       0x34 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .comment       0x0000000000000033       0x34 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .comment       0x0000000000000033       0x34 ../../platform/ns/libplatform_ns.a(timers.o)
+ .comment       0x0000000000000033       0x34 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .comment       0x0000000000000033       0x34 ../../platform/ns/libplatform_ns.a(port.o)
+ .comment       0x0000000000000033       0x34 ../../platform/ns/libplatform_ns.a(portasm.o)
+ .comment       0x0000000000000033       0x34 ../../platform/ns/libplatform_ns.a(list.o)
+ .comment       0x0000000000000033       0x34 ../../platform/ns/libplatform_ns.a(queue.o)
+ .comment       0x0000000000000033       0x34 libtfm_api_ns.a(tfm_psa_ns_api.o)
+ .comment       0x0000000000000033       0x34 libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-atexit.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-fini.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-strlen-stub.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__atexit.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/crtend.o
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+
+.debug_line     0x0000000000000000     0xeee1
+ .debug_line    0x0000000000000000       0x87 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+ .debug_line    0x0000000000000087      0x6e7 CMakeFiles/tfm_ns.dir/main_ns.o
+ .debug_line    0x000000000000076e     0x1166 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+ .debug_line    0x00000000000018d4      0x428 CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .debug_line    0x0000000000001cfc      0x1e4 ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+ .debug_line    0x0000000000001ee0      0x72f ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .debug_line    0x000000000000260f      0x25c ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+ .debug_line    0x000000000000286b      0x4b7 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .debug_line    0x0000000000002d22     0x1246 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .debug_line    0x0000000000003f68      0x702 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .debug_line    0x000000000000466a     0x29d1 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .debug_line    0x000000000000703b      0x8ba ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .debug_line    0x00000000000078f5     0x28a6 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .debug_line    0x000000000000a19b      0xbc1 ../../platform/ns/libplatform_ns.a(timers.o)
+ .debug_line    0x000000000000ad5c      0x68e ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .debug_line    0x000000000000b3ea      0x494 ../../platform/ns/libplatform_ns.a(port.o)
+ .debug_line    0x000000000000b87e      0x1be ../../platform/ns/libplatform_ns.a(portasm.o)
+ .debug_line    0x000000000000ba3c      0x352 ../../platform/ns/libplatform_ns.a(list.o)
+ .debug_line    0x000000000000bd8e     0x18ec ../../platform/ns/libplatform_ns.a(queue.o)
+ .debug_line    0x000000000000d67a      0x21f libtfm_api_ns.a(tfm_psa_ns_api.o)
+ .debug_line    0x000000000000d899      0x29a libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+ .debug_line    0x000000000000db33       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x000000000000db93      0x5ce /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_line    0x000000000000e161       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x000000000000e1c1       0xc0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-atexit.o)
+ .debug_line    0x000000000000e281      0x16d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_line    0x000000000000e3ee       0xed /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-fini.o)
+ .debug_line    0x000000000000e4db       0xe4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+ .debug_line    0x000000000000e5bf      0x13e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+ .debug_line    0x000000000000e6fd       0xc1 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy.o)
+ .debug_line    0x000000000000e7be      0x1c1 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_line    0x000000000000e97f       0xf4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-strlen-stub.o)
+ .debug_line    0x000000000000ea73      0x1f8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__atexit.o)
+ .debug_line    0x000000000000ec6b      0x201 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .debug_line    0x000000000000ee6c       0x75 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+
+.debug_info     0x0000000000000000    0x13ed7
+ .debug_info    0x0000000000000000       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+ .debug_info    0x0000000000000026      0xe8e CMakeFiles/tfm_ns.dir/main_ns.o
+ .debug_info    0x0000000000000eb4      0xbbe CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+ .debug_info    0x0000000000001a72      0x55f CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .debug_info    0x0000000000001fd1      0x7b4 ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+ .debug_info    0x0000000000002785      0xe44 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .debug_info    0x00000000000035c9      0x4e5 ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+ .debug_info    0x0000000000003aae     0x14d5 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .debug_info    0x0000000000004f83     0x132f ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .debug_info    0x00000000000062b2      0x686 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .debug_info    0x0000000000006938     0x2689 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .debug_info    0x0000000000008fc1     0x1468 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .debug_info    0x000000000000a429     0x2fa7 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .debug_info    0x000000000000d3d0     0x142e ../../platform/ns/libplatform_ns.a(timers.o)
+ .debug_info    0x000000000000e7fe      0x604 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .debug_info    0x000000000000ee02      0x3b5 ../../platform/ns/libplatform_ns.a(port.o)
+ .debug_info    0x000000000000f1b7      0x142 ../../platform/ns/libplatform_ns.a(portasm.o)
+ .debug_info    0x000000000000f2f9      0x2cd ../../platform/ns/libplatform_ns.a(list.o)
+ .debug_info    0x000000000000f5c6     0x20e2 ../../platform/ns/libplatform_ns.a(queue.o)
+ .debug_info    0x00000000000116a8      0x368 libtfm_api_ns.a(tfm_psa_ns_api.o)
+ .debug_info    0x0000000000011a10      0x25d libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+ .debug_info    0x0000000000011c6d       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x0000000000011c93      0x717 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_info    0x00000000000123aa       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x00000000000123d0      0x100 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-atexit.o)
+ .debug_info    0x00000000000124d0      0x81a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_info    0x0000000000012cea      0x102 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-fini.o)
+ .debug_info    0x0000000000012dec      0x863 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+ .debug_info    0x000000000001364f      0x11a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+ .debug_info    0x0000000000013769       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy.o)
+ .debug_info    0x000000000001378f      0x137 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_info    0x00000000000138c6       0xbc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-strlen-stub.o)
+ .debug_info    0x0000000000013982      0x269 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__atexit.o)
+ .debug_info    0x0000000000013beb      0x249 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000000000013e34       0xa3 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x3bba
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+ .debug_abbrev  0x0000000000000014      0x31d CMakeFiles/tfm_ns.dir/main_ns.o
+ .debug_abbrev  0x0000000000000331      0x1d2 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+ .debug_abbrev  0x0000000000000503      0x273 CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .debug_abbrev  0x0000000000000776      0x27d ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+ .debug_abbrev  0x00000000000009f3      0x305 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .debug_abbrev  0x0000000000000cf8      0x12a ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+ .debug_abbrev  0x0000000000000e22      0x2f9 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .debug_abbrev  0x000000000000111b      0x2e2 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .debug_abbrev  0x00000000000013fd      0x235 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .debug_abbrev  0x0000000000001632      0x3b8 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .debug_abbrev  0x00000000000019ea      0x393 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .debug_abbrev  0x0000000000001d7d      0x403 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .debug_abbrev  0x0000000000002180      0x359 ../../platform/ns/libplatform_ns.a(timers.o)
+ .debug_abbrev  0x00000000000024d9      0x26f ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .debug_abbrev  0x0000000000002748      0x16a ../../platform/ns/libplatform_ns.a(port.o)
+ .debug_abbrev  0x00000000000028b2       0xb6 ../../platform/ns/libplatform_ns.a(portasm.o)
+ .debug_abbrev  0x0000000000002968      0x106 ../../platform/ns/libplatform_ns.a(list.o)
+ .debug_abbrev  0x0000000000002a6e      0x33e ../../platform/ns/libplatform_ns.a(queue.o)
+ .debug_abbrev  0x0000000000002dac      0x134 libtfm_api_ns.a(tfm_psa_ns_api.o)
+ .debug_abbrev  0x0000000000002ee0      0x111 libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+ .debug_abbrev  0x0000000000002ff1       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x0000000000003005      0x163 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_abbrev  0x0000000000003168       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x000000000000317c       0xb7 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000000000003233      0x1ba /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_abbrev  0x00000000000033ed       0xcf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-fini.o)
+ .debug_abbrev  0x00000000000034bc      0x151 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+ .debug_abbrev  0x000000000000360d       0xcc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+ .debug_abbrev  0x00000000000036d9       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy.o)
+ .debug_abbrev  0x00000000000036ed       0xb4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_abbrev  0x00000000000037a1       0x79 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-strlen-stub.o)
+ .debug_abbrev  0x000000000000381a      0x1bd /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__atexit.o)
+ .debug_abbrev  0x00000000000039d7      0x179 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x0000000000003b50       0x6a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+
+.debug_aranges  0x0000000000000000     0x1158
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+ .debug_aranges
+                0x0000000000000020       0x60 CMakeFiles/tfm_ns.dir/main_ns.o
+ .debug_aranges
+                0x0000000000000080      0x3c8 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+ .debug_aranges
+                0x0000000000000448       0x40 CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .debug_aranges
+                0x0000000000000488       0x38 ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+ .debug_aranges
+                0x00000000000004c0      0x128 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .debug_aranges
+                0x00000000000005e8       0x28 ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+ .debug_aranges
+                0x0000000000000610       0x80 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .debug_aranges
+                0x0000000000000690       0x98 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .debug_aranges
+                0x0000000000000728       0x58 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .debug_aranges
+                0x0000000000000780      0x1f0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .debug_aranges
+                0x0000000000000970       0xb0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .debug_aranges
+                0x0000000000000a20      0x1c0 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .debug_aranges
+                0x0000000000000be0       0xd0 ../../platform/ns/libplatform_ns.a(timers.o)
+ .debug_aranges
+                0x0000000000000cb0       0x58 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .debug_aranges
+                0x0000000000000d08       0x70 ../../platform/ns/libplatform_ns.a(port.o)
+ .debug_aranges
+                0x0000000000000d78       0x60 ../../platform/ns/libplatform_ns.a(portasm.o)
+ .debug_aranges
+                0x0000000000000dd8       0x40 ../../platform/ns/libplatform_ns.a(list.o)
+ .debug_aranges
+                0x0000000000000e18      0x120 ../../platform/ns/libplatform_ns.a(queue.o)
+ .debug_aranges
+                0x0000000000000f38       0x40 libtfm_api_ns.a(tfm_psa_ns_api.o)
+ .debug_aranges
+                0x0000000000000f78       0x28 libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+ .debug_aranges
+                0x0000000000000fa0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_aranges
+                0x0000000000000fc0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_aranges
+                0x0000000000000fe0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x0000000000001000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000001020       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000001040       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-fini.o)
+ .debug_aranges
+                0x0000000000001060       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000001078       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+ .debug_aranges
+                0x0000000000001098       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x00000000000010b8       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_aranges
+                0x00000000000010d8       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-strlen-stub.o)
+ .debug_aranges
+                0x00000000000010f8       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x0000000000001118       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x0000000000001138       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+
+.debug_str      0x0000000000000000     0x7205
+ .debug_str     0x0000000000000000       0x99 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/crt0.o
+ .debug_str     0x0000000000000099      0x89e CMakeFiles/tfm_ns.dir/main_ns.o
+                                        0x927 (size before relaxing)
+ .debug_str     0x0000000000000937      0xa05 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+                                        0xbd7 (size before relaxing)
+ .debug_str     0x000000000000133c      0x14a CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+                                        0x32f (size before relaxing)
+ .debug_str     0x0000000000001486      0x2ed ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+                                        0x5ac (size before relaxing)
+ .debug_str     0x0000000000001773      0xb14 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+                                        0xf03 (size before relaxing)
+ .debug_str     0x0000000000002287       0xcd ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+                                        0x460 (size before relaxing)
+ .debug_str     0x0000000000002354      0x6fe ../../platform/ns/libplatform_ns.a(low_level_com.o)
+                                        0xeef (size before relaxing)
+ .debug_str     0x0000000000002a52      0x3f9 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+                                        0xa54 (size before relaxing)
+ .debug_str     0x0000000000002e4b      0x1c1 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+                                        0x497 (size before relaxing)
+ .debug_str     0x000000000000300c      0x8f6 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+                                       0x12a7 (size before relaxing)
+ .debug_str     0x0000000000003902      0x5eb ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+                                        0xecf (size before relaxing)
+ .debug_str     0x0000000000003eed      0xf93 ../../platform/ns/libplatform_ns.a(tasks.o)
+                                       0x11e0 (size before relaxing)
+ .debug_str     0x0000000000004e80      0x60e ../../platform/ns/libplatform_ns.a(timers.o)
+                                        0xa0f (size before relaxing)
+ .debug_str     0x000000000000548e      0x30e ../../platform/ns/libplatform_ns.a(heap_4.o)
+                                        0x554 (size before relaxing)
+ .debug_str     0x000000000000579c      0x15e ../../platform/ns/libplatform_ns.a(port.o)
+                                        0x42f (size before relaxing)
+ .debug_str     0x00000000000058fa       0xa1 ../../platform/ns/libplatform_ns.a(portasm.o)
+                                        0x2b1 (size before relaxing)
+ .debug_str     0x000000000000599b       0x9a ../../platform/ns/libplatform_ns.a(list.o)
+                                        0x340 (size before relaxing)
+ .debug_str     0x0000000000005a35      0x5db ../../platform/ns/libplatform_ns.a(queue.o)
+                                        0xbcd (size before relaxing)
+ .debug_str     0x0000000000006010       0xb2 libtfm_api_ns.a(tfm_psa_ns_api.o)
+                                        0x2bf (size before relaxing)
+ .debug_str     0x00000000000060c2       0x91 libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+                                        0x2f5 (size before relaxing)
+ .debug_str     0x0000000000006153       0x9b /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+                                         0xa7 (size before relaxing)
+ .debug_str     0x00000000000061ee      0x551 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+                                        0x649 (size before relaxing)
+ .debug_str     0x000000000000673f       0x30 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+                                         0xab (size before relaxing)
+ .debug_str     0x000000000000676f      0x14f /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-atexit.o)
+                                        0x1eb (size before relaxing)
+ .debug_str     0x00000000000068be      0x370 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+                                        0x52a (size before relaxing)
+ .debug_str     0x0000000000006c2e       0xcd /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-fini.o)
+                                        0x1e3 (size before relaxing)
+ .debug_str     0x0000000000006cfb       0xe0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-impure.o)
+                                        0x560 (size before relaxing)
+ .debug_str     0x0000000000006ddb       0x90 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+                                        0x20d (size before relaxing)
+ .debug_str     0x0000000000006e6b       0xab /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memcpy.o)
+                                         0xb7 (size before relaxing)
+ .debug_str     0x0000000000006f16       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+                                        0x1c2 (size before relaxing)
+ .debug_str     0x0000000000006fba       0x41 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-strlen-stub.o)
+                                        0x1c0 (size before relaxing)
+ .debug_str     0x0000000000006ffb       0xbb /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__atexit.o)
+                                        0x299 (size before relaxing)
+ .debug_str     0x00000000000070b6       0x62 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__call_atexit.o)
+                                        0x25d (size before relaxing)
+ .debug_str     0x0000000000007118       0xed /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+                                        0x183 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0xc697
+ .debug_loc     0x0000000000000000      0x123 CMakeFiles/tfm_ns.dir/main_ns.o
+ .debug_loc     0x0000000000000123       0x6e CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+ .debug_loc     0x0000000000000191      0x4bf CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .debug_loc     0x0000000000000650       0xe8 ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+ .debug_loc     0x0000000000000738      0x2a6 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .debug_loc     0x00000000000009de       0xf7 ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+ .debug_loc     0x0000000000000ad5      0x1b2 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .debug_loc     0x0000000000000c87      0xa3d ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .debug_loc     0x00000000000016c4      0x316 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .debug_loc     0x00000000000019da     0x2100 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .debug_loc     0x0000000000003ada      0x614 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .debug_loc     0x00000000000040ee     0x2df1 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .debug_loc     0x0000000000006edf     0x108a ../../platform/ns/libplatform_ns.a(timers.o)
+ .debug_loc     0x0000000000007f69      0x5cd ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .debug_loc     0x0000000000008536      0x21c ../../platform/ns/libplatform_ns.a(port.o)
+ .debug_loc     0x0000000000008752       0xaf ../../platform/ns/libplatform_ns.a(list.o)
+ .debug_loc     0x0000000000008801     0x23bd ../../platform/ns/libplatform_ns.a(queue.o)
+ .debug_loc     0x000000000000abbe      0x24b libtfm_api_ns.a(tfm_psa_ns_api.o)
+ .debug_loc     0x000000000000ae09      0x13d libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+ .debug_loc     0x000000000000af46     0x1027 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_loc     0x000000000000bf6d       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-atexit.o)
+ .debug_loc     0x000000000000bf9f       0x22 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_loc     0x000000000000bfc1       0x68 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-fini.o)
+ .debug_loc     0x000000000000c029       0xba /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+ .debug_loc     0x000000000000c0e3      0x22c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_loc     0x000000000000c30f       0x25 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-strlen-stub.o)
+ .debug_loc     0x000000000000c334      0x1c4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__atexit.o)
+ .debug_loc     0x000000000000c4f8      0x18a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .debug_loc     0x000000000000c682       0x15 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)
+
+.debug_ranges   0x0000000000000000     0x1890
+ .debug_ranges  0x0000000000000000       0x80 CMakeFiles/tfm_ns.dir/main_ns.o
+ .debug_ranges  0x0000000000000080      0x420 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+ .debug_ranges  0x00000000000004a0       0x60 CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .debug_ranges  0x0000000000000500       0x40 ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+ .debug_ranges  0x0000000000000540      0x118 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .debug_ranges  0x0000000000000658       0x18 ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+ .debug_ranges  0x0000000000000670       0xd8 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .debug_ranges  0x0000000000000748      0x100 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .debug_ranges  0x0000000000000848       0x48 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .debug_ranges  0x0000000000000890      0x210 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .debug_ranges  0x0000000000000aa0      0x1d0 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .debug_ranges  0x0000000000000c70      0x5b0 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .debug_ranges  0x0000000000001220      0x148 ../../platform/ns/libplatform_ns.a(timers.o)
+ .debug_ranges  0x0000000000001368       0x48 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .debug_ranges  0x00000000000013b0       0x60 ../../platform/ns/libplatform_ns.a(port.o)
+ .debug_ranges  0x0000000000001410       0x50 ../../platform/ns/libplatform_ns.a(portasm.o)
+ .debug_ranges  0x0000000000001460       0x30 ../../platform/ns/libplatform_ns.a(list.o)
+ .debug_ranges  0x0000000000001490      0x290 ../../platform/ns/libplatform_ns.a(queue.o)
+ .debug_ranges  0x0000000000001720       0x30 libtfm_api_ns.a(tfm_psa_ns_api.o)
+ .debug_ranges  0x0000000000001750       0x18 libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+ .debug_ranges  0x0000000000001768       0xe8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_ranges  0x0000000000001850       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-strlen-stub.o)
+ .debug_ranges  0x0000000000001860       0x30 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__call_atexit.o)
+
+.debug_frame    0x0000000000000000     0x2a54
+ .debug_frame   0x0000000000000000       0xfc CMakeFiles/tfm_ns.dir/main_ns.o
+ .debug_frame   0x00000000000000fc      0x778 CMakeFiles/tfm_ns.dir/__/__/__/__/__/platform/ext/target/stm/common/stm32l5xx/Device/Source/startup_stm32l5xx_ns.o
+ .debug_frame   0x0000000000000874       0xd0 CMakeFiles/tfm_ns.dir/__/log/tfm_log_raw.o
+ .debug_frame   0x0000000000000944       0x80 ../../platform/ns/libplatform_ns.a(uart_stdout.o)
+ .debug_frame   0x00000000000009c4      0x280 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal.o)
+ .debug_frame   0x0000000000000c44       0x38 ../../platform/ns/libplatform_ns.a(system_stm32l5xx.o)
+ .debug_frame   0x0000000000000c7c      0x128 ../../platform/ns/libplatform_ns.a(low_level_com.o)
+ .debug_frame   0x0000000000000da4      0x1a4 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_rcc.o)
+ .debug_frame   0x0000000000000f48       0xe4 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_gpio.o)
+ .debug_frame   0x000000000000102c      0x688 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_uart.o)
+ .debug_frame   0x00000000000016b4      0x170 ../../platform/ns/libplatform_ns.a(stm32l5xx_hal_cortex.o)
+ .debug_frame   0x0000000000001824      0x608 ../../platform/ns/libplatform_ns.a(tasks.o)
+ .debug_frame   0x0000000000001e2c      0x294 ../../platform/ns/libplatform_ns.a(timers.o)
+ .debug_frame   0x00000000000020c0       0xe0 ../../platform/ns/libplatform_ns.a(heap_4.o)
+ .debug_frame   0x00000000000021a0      0x114 ../../platform/ns/libplatform_ns.a(port.o)
+ .debug_frame   0x00000000000022b4       0xa0 ../../platform/ns/libplatform_ns.a(portasm.o)
+ .debug_frame   0x0000000000002354       0x6c ../../platform/ns/libplatform_ns.a(list.o)
+ .debug_frame   0x00000000000023c0      0x3c4 ../../platform/ns/libplatform_ns.a(queue.o)
+ .debug_frame   0x0000000000002784       0x98 libtfm_api_ns.a(tfm_psa_ns_api.o)
+ .debug_frame   0x000000000000281c       0x48 libtfm_api_ns.a(tfm_ns_interface_rtos.o)
+ .debug_frame   0x0000000000002864       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000002890       0x38 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00000000000028c8       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-atexit.o)
+ .debug_frame   0x00000000000028e8       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000002910       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-fini.o)
+ .debug_frame   0x0000000000002944       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000002970       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x000000000000299c       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-strlen-stub.o)
+ .debug_frame   0x00000000000029bc       0x38 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__atexit.o)
+ .debug_frame   0x00000000000029f4       0x40 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000002a34       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libnosys.a(_exit.o)

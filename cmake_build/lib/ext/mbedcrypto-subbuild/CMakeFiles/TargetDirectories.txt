@@ -1,0 +1,3 @@
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/mbedcrypto-subbuild/CMakeFiles/mbedcrypto-populate.dir
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/mbedcrypto-subbuild/CMakeFiles/edit_cache.dir
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/mbedcrypto-subbuild/CMakeFiles/rebuild_cache.dir

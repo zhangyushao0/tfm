@@ -1,0 +1,14 @@
+# Target labels
+ tfm_test_repo-populate
+# Source files and their labels
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/tfm_test_repo-subbuild/CMakeFiles/tfm_test_repo-populate
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/tfm_test_repo-subbuild/CMakeFiles/tfm_test_repo-populate.rule
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/tfm_test_repo-subbuild/CMakeFiles/tfm_test_repo-populate-complete.rule
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/tfm_test_repo-subbuild/tfm_test_repo-populate-prefix/src/tfm_test_repo-populate-stamp/tfm_test_repo-populate-build.rule
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/tfm_test_repo-subbuild/tfm_test_repo-populate-prefix/src/tfm_test_repo-populate-stamp/tfm_test_repo-populate-configure.rule
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/tfm_test_repo-subbuild/tfm_test_repo-populate-prefix/src/tfm_test_repo-populate-stamp/tfm_test_repo-populate-download.rule
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/tfm_test_repo-subbuild/tfm_test_repo-populate-prefix/src/tfm_test_repo-populate-stamp/tfm_test_repo-populate-install.rule
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/tfm_test_repo-subbuild/tfm_test_repo-populate-prefix/src/tfm_test_repo-populate-stamp/tfm_test_repo-populate-mkdir.rule
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/tfm_test_repo-subbuild/tfm_test_repo-populate-prefix/src/tfm_test_repo-populate-stamp/tfm_test_repo-populate-patch.rule
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/tfm_test_repo-subbuild/tfm_test_repo-populate-prefix/src/tfm_test_repo-populate-stamp/tfm_test_repo-populate-test.rule
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/tfm_test_repo-subbuild/tfm_test_repo-populate-prefix/src/tfm_test_repo-populate-stamp/tfm_test_repo-populate-update.rule

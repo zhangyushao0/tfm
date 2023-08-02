@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+5e2894c35c0173b76395bb6620c2923a CMakeFiles/qcbor-populate
+6383da90dfb2ed2d688db45fa5fd7e27 CMakeFiles/qcbor-populate-complete
+2496319b58947c39d0e59ab19e4a8d2a qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-build
+32d1be3bd81d780fba85293072bae19c qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-configure
+d6d3f8ca6d049c1225625002e40086d4 qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-download
+d25ed738f939c6fa186cd08c88753d38 qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-install
+efe42fbd69b6326044d968a729ab83b4 qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-mkdir
+d61d75f041ee6a3f47d10f560b6dfc14 qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-patch
+ffbe76981da1012638eab55dce227505 qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-test
+d95f0b249a9c3a5ba46cd8e3d963781d qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-update

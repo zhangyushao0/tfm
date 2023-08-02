@@ -1,0 +1,3 @@
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/qcbor-subbuild/CMakeFiles/qcbor-populate.dir
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/qcbor-subbuild/CMakeFiles/edit_cache.dir
+/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/lib/ext/qcbor-subbuild/CMakeFiles/rebuild_cache.dir

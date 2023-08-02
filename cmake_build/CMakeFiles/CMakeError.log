@@ -1,0 +1,44 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/arm-none-eabi-gcc 
+Build flags: -mcpu=cortex-m33+nofp
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-pB30de/newlib-3.3.0/build/arm-none-eabi/thumb/v8-m.main/nofp/newlib/libc/stdlib/../../../../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/arm-none-eabi-g++ 
+Build flags: -mcpu=cortex-m33+nofp
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-pB30de/newlib-3.3.0/build/arm-none-eabi/thumb/v8-m.main/nofp/newlib/libc/stdlib/../../../../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Performing C SOURCE FILE Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS failed with the following output:
+Change Dir: /home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d3746/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d3746.dir/build.make CMakeFiles/cmTC_d3746.dir/build
+gmake[1]: Entering directory '/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3746.dir/src.o
+/usr/bin/arm-none-eabi-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mcpu=cortex-m33+nofp -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_d3746.dir/src.o -c /home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d3746
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3746.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m33+nofp -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow  CMakeFiles/cmTC_d3746.dir/src.o -o cmTC_d3746 
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v8-m.main/nofp/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-pB30de/newlib-3.3.0/build/arm-none-eabi/thumb/v8-m.main/nofp/newlib/libc/stdlib/../../../../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_d3746.dir/build.make:99: cmTC_d3746] Error 1
+gmake[1]: Leaving directory '/home/zhangyushao/tfm_2/trusted-firmware-m/cmake_build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d3746/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
