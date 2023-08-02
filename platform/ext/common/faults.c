@@ -18,15 +18,14 @@ void C_HardFault_Handler(void)
     tfm_core_panic();
 }
 
-__attribute__((naked)) void HardFault_Handler(void)
-{
-    EXCEPTION_INFO(EXCEPTION_TYPE_HARDFAULT);
+// __attribute__((naked)) void HardFault_Handler(void)
+// {
+//     EXCEPTION_INFO(EXCEPTION_TYPE_HARDFAULT);
 
-    __ASM volatile(
-        "bl        C_HardFault_Handler     \n"
-        "b         .                       \n"
-    );
-}
+//     __ASM volatile(
+//         "bl        C_HardFault_Handler     \n"
+//         "b         .                       \n");
+// }
 
 void C_MemManage_Handler(void)
 {
@@ -44,8 +43,7 @@ __attribute__((naked)) void MemManage_Handler(void)
 
     __ASM volatile(
         "bl        C_MemManage_Handler     \n"
-        "b         .                       \n"
-    );
+        "b         .                       \n");
 }
 
 void C_BusFault_Handler(void)
@@ -64,8 +62,7 @@ __attribute__((naked)) void BusFault_Handler(void)
 
     __ASM volatile(
         "bl        C_BusFault_Handler      \n"
-        "b         .                       \n"
-    );
+        "b         .                       \n");
 }
 
 void C_SecureFault_Handler(void)
@@ -84,8 +81,7 @@ __attribute__((naked)) void SecureFault_Handler(void)
 
     __ASM volatile(
         "bl        C_SecureFault_Handler   \n"
-        "b         .                       \n"
-    );
+        "b         .                       \n");
 }
 
 void C_UsageFault_Handler(void)
@@ -99,6 +95,5 @@ __attribute__((naked)) void UsageFault_Handler(void)
 
     __ASM volatile(
         "bl        C_UsageFault_Handler   \n"
-        "b         .                      \n"
-    );
+        "b         .                      \n");
 }

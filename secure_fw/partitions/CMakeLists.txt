@@ -29,6 +29,8 @@ add_subdirectory(platform)
 add_subdirectory(firmware_update)
 add_subdirectory(ns_agent_tz)
 add_subdirectory(ns_agent_mailbox)
+add_subdirectory(example_partition)
+
 if (CONFIG_TFM_SPM_BACKEND_IPC)
     add_subdirectory(idle_partition)
 endif()

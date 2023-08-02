@@ -10,10 +10,7 @@
 
 struct platform_data_t;
 
-
-
-#define TFM_PERIPHERAL_STD_UART     (0)
-#define TFM_PERIPHERAL_TIMER0       (0)
-#define TFM_PERIPHERAL_FPGA_IO      (0)
-
+#define TFM_PERIPHERAL_STD_UART (0)
+#define TFM_PERIPHERAL_TIMER0 (0)
+#define TFM_PERIPHERAL_FPGA_IO (0)
 #endif /* __TFM_PERIPHERALS_DEF_H__ */

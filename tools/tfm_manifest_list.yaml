@@ -121,5 +121,19 @@
          ]
       }
     },
+    {
+    "description": "TFM Example Partition",
+    "manifest": "../secure_fw/partitions/example_partition/tfm_example_partition.yaml",
+    "conditional": "TFM_PARTITION_EXAMPLE",
+    "output_path": "secure_fw/partitions/example_partition",
+    "version_major": 0,
+    "version_minor": 1,
+    "pid": 290,
+    "linker_pattern": {
+      "library_list": [
+        "*tfm_*partition_example.*"
+     ]
+  }
+}
   ]
 }
